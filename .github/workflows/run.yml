@@ -1,0 +1,44 @@
+name: Lab Build
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  run-all:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Compile and run all 21 experiments
+        run: |
+          set -u
+          ok=0; total=0; failed=0
+          for f in experiments/*.c; do
+            base=$(basename "$f" .c)
+            total=$((total+1))
+            echo "==================================================="
+            echo "▶ Compiling: $base"
+            echo "==================================================="
+            if ! gcc -w -o "/tmp/prog_$base" "$f"; then
+              echo "❌ COMPILE FAILED: $base"
+              failed=$((failed+1))
+              continue
+            fi
+            echo "▶ Output:"
+            if [ -f "experiments/inputs/$base.txt" ]; then
+              "/tmp/prog_$base" < "experiments/inputs/$base.txt" || { echo "⚠ runtime issue"; }
+            else
+              "/tmp/prog_$base" || { echo "⚠ runtime issue"; }
+            fi
+            ok=$((ok+1))
+            echo ""
+          done
+          echo ""
+          echo "✔ Compiled & ran $ok/$total experiments"
+          if [ "$failed" -gt 0 ]; then
+            echo "✘ $failed compile failures"
+            exit 1
+          fi
