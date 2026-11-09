@@ -2,6 +2,7 @@
 <p align="center"><i>A complete collection of <b>21 C programming experiments</b> — handwritten in a lab record book, carefully digitized into clean, copy-ready code.</i></p>
 
 <p align="center">
+  <a href="https://github.com/akhil-tg/01012008/actions/workflows/run.yml"><img alt="Lab Build" src="https://github.com/akhil-tg/01012008/actions/workflows/run.yml/badge.svg"/></a>
   <a href="https://github.com/akhil-tg/01012008"><img alt="experiments" src="https://img.shields.io/badge/Experiments-21-blue?style=for-the-badge&color=0969da"/></a>
   <a href="https://github.com/akhil-tg/01012008"><img alt="language" src="https://img.shields.io/badge/Language-C-blue?style=for-the-badge&logo=c&color=2ea043"/></a>
   <a href="https://github.com/akhil-tg/01012008/blob/main/C_Lab_Record.pdf"><img alt="pdf" src="https://img.shields.io/badge/Full_PDF-Available-orange?style=for-the-badge&color=c95110"/></a>
