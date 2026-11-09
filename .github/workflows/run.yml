@@ -22,10 +22,10 @@ jobs:
             echo "==================================================="
             echo "▶ Compiling: $base"
             echo "==================================================="
-            if ! gcc -w -o "/tmp/prog_$base" "$f"; then
-              echo "❌ COMPILE FAILED: $base"
-              failed=$((failed+1))
-              continue
+            if grep -q "sqrt" "$f"; then
+              gcc -w -o "/tmp/prog_$base" "$f" -lm || { echo "❌ COMPILE FAILED: $base"; failed=$((failed+1)); continue; }
+            else
+              gcc -w -o "/tmp/prog_$base" "$f" || { echo "❌ COMPILE FAILED: $base"; failed=$((failed+1)); continue; }
             fi
             echo "▶ Output:"
             if [ -f "experiments/inputs/$base.txt" ]; then
