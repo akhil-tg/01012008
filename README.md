@@ -78,6 +78,11 @@ void main()
 }
 ```
 
+💡 **Sample Run**
+> **Input:** `(none)`
+> **Output:** `Size of int = 4 bytes | Size of char = 1 byte | Size of float = 4 bytes | Size of double = 8 bytes`
+
+
 <p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-1-c-program-to-print-the-size-of-different-data-types">⬆ to top of experiment 1</a></sub></p>
 
 ---
@@ -109,6 +114,11 @@ void main()
 }
 ```
 
+💡 **Sample Run**
+> **Input:** `3 4 5`
+> **Output:** `Perimeter = 12.000000 | Area = 6.000000`
+
+
 <p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-2-perimeter-and-area-of-a-triangle">⬆ to top of experiment 2</a></sub></p>
 
 ---
@@ -138,6 +148,11 @@ void main()
 }
 ```
 
+💡 **Sample Run**
+> **Input:** `7`
+> **Output:** `Area = 153.860001 | Circumference = 43.959999`
+
+
 <p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-3-area-and-circumference-of-a-circle">⬆ to top of experiment 3</a></sub></p>
 
 ---
@@ -165,6 +180,11 @@ void main()
 }
 ```
 
+💡 **Sample Run**
+> **Input:** `98.6`
+> **Output:** `Temperature in Celsius = 37.000000`
+
+
 <p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-4-convert-fahrenheit-to-celsius">⬆ to top of experiment 4</a></sub></p>
 
 ---
@@ -191,6 +211,11 @@ void main()
     getch();
 }
 ```
+
+💡 **Sample Run**
+> **Input:** `1000 5 2`
+> **Output:** `Simple Interest = 100.000000`
+
 
 <p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-5-simple-interest">⬆ to top of experiment 5</a></sub></p>
 
@@ -221,6 +246,11 @@ void main()
 }
 ```
 
+💡 **Sample Run**
+> **Input:** `10 20`
+> **Output:** `After swapping : a = 20, b = 10`
+
+
 <p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-6-swap-two-numbers-without-using-a-temporary-variable">⬆ to top of experiment 6</a></sub></p>
 
 ---
@@ -250,6 +280,11 @@ void main()
 }
 ```
 
+💡 **Sample Run**
+> **Input:** `10 20`
+> **Output:** `After swapping : a = 20, b = 10`
+
+
 <p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-7-swap-two-numbers-using-a-temporary-variable">⬆ to top of experiment 7</a></sub></p>
 
 ---
@@ -274,6 +309,11 @@ void main()
     getch();
 }
 ```
+
+💡 **Sample Run**
+> **Input:** `5 3`
+> **Output:** `a is greater`
+
 
 <p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-8-check-a--b-using-the-conditional-operator">⬆ to top of experiment 8</a></sub></p>
 
@@ -323,6 +363,11 @@ void main()
 }
 ```
 
+💡 **Sample Run**
+> **Input:** `10 5`
+> **Output:** `Addition = 15 | Subtraction = 5 | Multiplication = 50 | Division = 2`
+
+
 <p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-9-arithmetic-and-relational-operations-using-short-name-method">⬆ to top of experiment 9</a></sub></p>
 
 ---
@@ -349,6 +394,11 @@ void main()
     getch();
 }
 ```
+
+💡 **Sample Run**
+> **Input:** `2 3 4`
+> **Output:** `Result = 20`
+
 
 <p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-10-evaluate-the-expression-abc">⬆ to top of experiment 10</a></sub></p>
 
@@ -393,6 +443,11 @@ void main()
 }
 ```
 
+💡 **Sample Run**
+> **Input:** `5 5`
+> **Output:** `Condition (a==b) is TRUE | Condition (a-b==0) is TRUE | Condition (a/b==1) is TRUE`
+
+
 <p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-11-equivalence-of-two-numbers">⬆ to top of experiment 11</a></sub></p>
 
 ---
@@ -420,6 +475,11 @@ void main()
     getch();
 }
 ```
+
+💡 **Sample Run**
+> **Input:** `7 3`
+> **Output:** `a is larger`
+
 
 <p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-12-largest-of-two-numbers">⬆ to top of experiment 12</a></sub></p>
 
@@ -450,6 +510,11 @@ void main()
     getch();
 }
 ```
+
+💡 **Sample Run**
+> **Input:** `3 9 5`
+> **Output:** `B is largest`
+
 
 <p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-13-maximum-of-three-numbers">⬆ to top of experiment 13</a></sub></p>
 
@@ -482,6 +547,11 @@ void main()
     getch();
 }
 ```
+
+💡 **Sample Run**
+> **Input:** `4 8`
+> **Output:** `a is smaller`
+
 
 <p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-14-smallest-of-two-numbers">⬆ to top of experiment 14</a></sub></p>
 
@@ -526,6 +596,11 @@ void main()
 }
 ```
 
+💡 **Sample Run**
+> **Input:** `1000 -> 1250`
+> **Output:** `Units consumed = 250.000000 | Energy bill = Rs 625.000000`
+
+
 <p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-15-energy-bill-using-else-if-ladder">⬆ to top of experiment 15</a></sub></p>
 
 ---
@@ -558,6 +633,11 @@ void main()
 }
 ```
 
+💡 **Sample Run**
+> **Input:** `2024`
+> **Output:** `Leap year`
+
+
 <p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-16-leap-year-or-not">⬆ to top of experiment 16</a></sub></p>
 
 ---
@@ -589,6 +669,11 @@ void main()
     getch();
 }
 ```
+
+💡 **Sample Run**
+> **Input:** `7`
+> **Output:** `a is odd`
+
 
 <p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-17-odd-or-even">⬆ to top of experiment 17</a></sub></p>
 
@@ -649,6 +734,11 @@ void main()
     getch();
 }
 ```
+
+💡 **Sample Run**
+> **Input:** `6000`
+> **Output:** `Gross salary = 14300.00`
+
 
 <p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-18-gross-salary-of-an-employee">⬆ to top of experiment 18</a></sub></p>
 
@@ -728,6 +818,11 @@ void main()
 }
 ```
 
+💡 **Sample Run**
+> **Input:** `80,85,90,95,88,75`
+> **Output:** `Average mark : 85.50 | Result : Distinction`
+
+
 <p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-19-average-of-six-subjects-with-division-classification">⬆ to top of experiment 19</a></sub></p>
 
 ---
@@ -786,6 +881,11 @@ void main()
     getch();
 }
 ```
+
+💡 **Sample Run**
+> **Input:** `3`
+> **Output:** `Tuesday`
+
 
 <p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-20-day-of-a-week-using-switch-case">⬆ to top of experiment 20</a></sub></p>
 
@@ -866,6 +966,11 @@ void main()
     getch();
 }
 ```
+
+💡 **Sample Run**
+> **Input:** `1 -> 10 5`
+> **Output:** `Addition = 15.00`
+
 
 <p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-21-menu-driven-arithmetic-calculations-using-switch-case">⬆ to top of experiment 21</a></sub></p>
 

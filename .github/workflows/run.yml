@@ -27,12 +27,19 @@ jobs:
             else
               gcc -w -o "/tmp/prog_$base" "$f" || { echo "❌ COMPILE FAILED: $base"; failed=$((failed+1)); continue; }
             fi
-            echo "▶ Output:"
+            echo "▶ Running with sample input:"
+            echo "---------------------------------------------------"
             if [ -f "experiments/inputs/$base.txt" ]; then
+              echo "$ base input:"
+              cat "experiments/inputs/$base.txt"
+              echo "▶ Output:"
               "/tmp/prog_$base" < "experiments/inputs/$base.txt" || { echo "⚠ runtime issue"; }
             else
+              echo "$ (no input required)"
+              echo "▶ Output:"
               "/tmp/prog_$base" || { echo "⚠ runtime issue"; }
             fi
+            echo "---------------------------------------------------"
             ok=$((ok+1))
             echo ""
           done
