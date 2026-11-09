@@ -1,12 +1,18 @@
-# 📘 C Programming Lab Record
+<h1 align="center">📘 C Programming Lab Record</h1>
+<p align="center"><i>A complete collection of <b>21 C programming experiments</b> — handwritten in a lab record book, carefully digitized into clean, copy-ready code.</i></p>
 
-A complete collection of **21 C programming experiments** — originally handwritten in a lab record book, carefully digitized into clean, copy-ready code.
+<p align="center">
+  <a href="https://github.com/akhil-tg/01012008"><img alt="experiments" src="https://img.shields.io/badge/Experiments-21-blue?style=for-the-badge&color=0969da"/></a>
+  <a href="https://github.com/akhil-tg/01012008"><img alt="language" src="https://img.shields.io/badge/Language-C-blue?style=for-the-badge&logo=c&color=2ea043"/></a>
+  <a href="https://github.com/akhil-tg/01012008/blob/main/C_Lab_Record.pdf"><img alt="pdf" src="https://img.shields.io/badge/Full_PDF-Available-orange?style=for-the-badge&color=c95110"/></a>
+</p>
 
-✨ **Every program below has a 1-click copy button on GitHub** — just hover over the code block and press the 📋 button.
+<p align="center">✨ Every program below has a <b>1-click copy button</b> on GitHub — hover over a code block and press 📋</p>
 
 ---
 
-## 🚀 Quick Start
+<details>
+<summary>🚀 <b>Quick Start — compile &amp; run any program</b></summary>
 
 ```bash
 # Compile with GCC
@@ -16,39 +22,45 @@ gcc <filename>.c -o program && ./program
 # Alt+F9 to compile, Ctrl+F9 to run
 ```
 
----
-
-## 📑 Index
-
-| No. | Experiment |
-|:---:|------------|
-| **1** | [C program to print the size of different data types](#experiment-1-c-program-to-print-the-size-of-different-data-types) |
-| **2** | [Perimeter and area of a triangle](#experiment-2-perimeter-and-area-of-a-triangle) |
-| **3** | [Area and circumference of a circle](#experiment-3-area-and-circumference-of-a-circle) |
-| **4** | [Convert fahrenheit to celsius](#experiment-4-convert-fahrenheit-to-celsius) |
-| **5** | [Simple interest](#experiment-5-simple-interest) |
-| **6** | [Swap two numbers without using a temporary variable](#experiment-6-swap-two-numbers-without-using-a-temporary-variable) |
-| **7** | [Swap two numbers using a temporary variable](#experiment-7-swap-two-numbers-using-a-temporary-variable) |
-| **8** | [Check a > b using the conditional operator](#experiment-8-check-a--b-using-the-conditional-operator) |
-| **9** | [Arithmetic and relational operations using short-name method](#experiment-9-arithmetic-and-relational-operations-using-short-name-method) |
-| **10** | [Evaluate the expression (a+b)*c](#experiment-10-evaluate-the-expression-abc) |
-| **11** | [Equivalence of two numbers](#experiment-11-equivalence-of-two-numbers) |
-| **12** | [Largest of two numbers](#experiment-12-largest-of-two-numbers) |
-| **13** | [Maximum of three numbers](#experiment-13-maximum-of-three-numbers) |
-| **14** | [Smallest of two numbers](#experiment-14-smallest-of-two-numbers) |
-| **15** | [Energy bill using else-if ladder](#experiment-15-energy-bill-using-else-if-ladder) |
-| **16** | [Leap year or not](#experiment-16-leap-year-or-not) |
-| **17** | [Odd or even](#experiment-17-odd-or-even) |
-| **18** | [Gross salary of an employee](#experiment-18-gross-salary-of-an-employee) |
-| **19** | [Average of six subjects with division classification](#experiment-19-average-of-six-subjects-with-division-classification) |
-| **20** | [Day of a week using switch case](#experiment-20-day-of-a-week-using-switch-case) |
-| **21** | [Menu driven arithmetic calculations using switch case](#experiment-21-menu-driven-arithmetic-calculations-using-switch-case) |
+</details>
 
 ---
 
-## Experiment 1: C program to print the size of different data types
+<h2 align="center">📑 Index</h2>
 
-> **Aim:** To write a C program to print the size of different data types.
+<p align="center">
+<table><thead>
+<tr><th align="center">No.</th><th align="center">Name of the Experiment</th></tr>
+</thead><tbody>
+<tr><td align="center"><b>1</b></td><td align="left"><a href="#experiment-1-c-program-to-print-the-size-of-different-data-types">C program to print the size of different data types</a></td></tr>
+<tr><td align="center"><b>2</b></td><td align="left"><a href="#experiment-2-perimeter-and-area-of-a-triangle">Perimeter and area of a triangle</a></td></tr>
+<tr><td align="center"><b>3</b></td><td align="left"><a href="#experiment-3-area-and-circumference-of-a-circle">Area and circumference of a circle</a></td></tr>
+<tr><td align="center"><b>4</b></td><td align="left"><a href="#experiment-4-convert-fahrenheit-to-celsius">Convert fahrenheit to celsius</a></td></tr>
+<tr><td align="center"><b>5</b></td><td align="left"><a href="#experiment-5-simple-interest">Simple interest</a></td></tr>
+<tr><td align="center"><b>6</b></td><td align="left"><a href="#experiment-6-swap-two-numbers-without-using-a-temporary-variable">Swap two numbers without using a temporary variable</a></td></tr>
+<tr><td align="center"><b>7</b></td><td align="left"><a href="#experiment-7-swap-two-numbers-using-a-temporary-variable">Swap two numbers using a temporary variable</a></td></tr>
+<tr><td align="center"><b>8</b></td><td align="left"><a href="#experiment-8-check-a--b-using-the-conditional-operator">Check a > b using the conditional operator</a></td></tr>
+<tr><td align="center"><b>9</b></td><td align="left"><a href="#experiment-9-arithmetic-and-relational-operations-using-short-name-method">Arithmetic and relational operations using short-name method</a></td></tr>
+<tr><td align="center"><b>10</b></td><td align="left"><a href="#experiment-10-evaluate-the-expression-abc">Evaluate the expression (a+b)*c</a></td></tr>
+<tr><td align="center"><b>11</b></td><td align="left"><a href="#experiment-11-equivalence-of-two-numbers">Equivalence of two numbers</a></td></tr>
+<tr><td align="center"><b>12</b></td><td align="left"><a href="#experiment-12-largest-of-two-numbers">Largest of two numbers</a></td></tr>
+<tr><td align="center"><b>13</b></td><td align="left"><a href="#experiment-13-maximum-of-three-numbers">Maximum of three numbers</a></td></tr>
+<tr><td align="center"><b>14</b></td><td align="left"><a href="#experiment-14-smallest-of-two-numbers">Smallest of two numbers</a></td></tr>
+<tr><td align="center"><b>15</b></td><td align="left"><a href="#experiment-15-energy-bill-using-else-if-ladder">Energy bill using else-if ladder</a></td></tr>
+<tr><td align="center"><b>16</b></td><td align="left"><a href="#experiment-16-leap-year-or-not">Leap year or not</a></td></tr>
+<tr><td align="center"><b>17</b></td><td align="left"><a href="#experiment-17-odd-or-even">Odd or even</a></td></tr>
+<tr><td align="center"><b>18</b></td><td align="left"><a href="#experiment-18-gross-salary-of-an-employee">Gross salary of an employee</a></td></tr>
+<tr><td align="center"><b>19</b></td><td align="left"><a href="#experiment-19-average-of-six-subjects-with-division-classification">Average of six subjects with division classification</a></td></tr>
+<tr><td align="center"><b>20</b></td><td align="left"><a href="#experiment-20-day-of-a-week-using-switch-case">Day of a week using switch case</a></td></tr>
+<tr><td align="center"><b>21</b></td><td align="left"><a href="#experiment-21-menu-driven-arithmetic-calculations-using-switch-case">Menu driven arithmetic calculations using switch case</a></td></tr>
+</tbody></table>
+</p>
+
+---
+
+### Experiment 1: C program to print the size of different data types
+
+> 🎯 **AIM:** To write a C program to print the size of different data types.
 
 ```c
 #include<stdio.h>
@@ -65,13 +77,13 @@ void main()
 }
 ```
 
-[⬆ Back to top](#-contents)
+<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-1-c-program-to-print-the-size-of-different-data-types">⬆ to top of experiment 1</a></sub></p>
 
 ---
 
-## Experiment 2: Perimeter and area of a triangle
+### Experiment 2: Perimeter and area of a triangle
 
-> **Aim:** To find the perimeter and area of a triangle.
+> 🎯 **AIM:** To find the perimeter and area of a triangle.
 
 ```c
 #include<stdio.h>
@@ -96,13 +108,13 @@ void main()
 }
 ```
 
-[⬆ Back to top](#-contents)
+<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-2-perimeter-and-area-of-a-triangle">⬆ to top of experiment 2</a></sub></p>
 
 ---
 
-## Experiment 3: Area and circumference of a circle
+### Experiment 3: Area and circumference of a circle
 
-> **Aim:** To find the area and circumference of a circle.
+> 🎯 **AIM:** To find the area and circumference of a circle.
 
 ```c
 #include<stdio.h>
@@ -125,13 +137,13 @@ void main()
 }
 ```
 
-[⬆ Back to top](#-contents)
+<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-3-area-and-circumference-of-a-circle">⬆ to top of experiment 3</a></sub></p>
 
 ---
 
-## Experiment 4: Convert Fahrenheit to Celsius
+### Experiment 4: Convert Fahrenheit to Celsius
 
-> **Aim:** To convert temperature in Fahrenheit to Celsius.
+> 🎯 **AIM:** To convert temperature in Fahrenheit to Celsius.
 
 ```c
 #include<stdio.h>
@@ -152,13 +164,13 @@ void main()
 }
 ```
 
-[⬆ Back to top](#-contents)
+<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-4-convert-fahrenheit-to-celsius">⬆ to top of experiment 4</a></sub></p>
 
 ---
 
-## Experiment 5: Simple interest
+### Experiment 5: Simple interest
 
-> **Aim:** To find the Simple Interest.
+> 🎯 **AIM:** To find the Simple Interest.
 
 ```c
 #include<stdio.h>
@@ -179,13 +191,13 @@ void main()
 }
 ```
 
-[⬆ Back to top](#-contents)
+<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-5-simple-interest">⬆ to top of experiment 5</a></sub></p>
 
 ---
 
-## Experiment 6: Swap two numbers without using a temporary variable
+### Experiment 6: Swap two numbers without using a temporary variable
 
-> **Aim:** To swap two numbers without using a temporary variable.
+> 🎯 **AIM:** To swap two numbers without using a temporary variable.
 
 ```c
 #include<stdio.h>
@@ -208,13 +220,13 @@ void main()
 }
 ```
 
-[⬆ Back to top](#-contents)
+<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-6-swap-two-numbers-without-using-a-temporary-variable">⬆ to top of experiment 6</a></sub></p>
 
 ---
 
-## Experiment 7: Swap two numbers using a temporary variable
+### Experiment 7: Swap two numbers using a temporary variable
 
-> **Aim:** To swap two numbers using a temporary variable.
+> 🎯 **AIM:** To swap two numbers using a temporary variable.
 
 ```c
 #include<stdio.h>
@@ -237,13 +249,13 @@ void main()
 }
 ```
 
-[⬆ Back to top](#-contents)
+<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-7-swap-two-numbers-using-a-temporary-variable">⬆ to top of experiment 7</a></sub></p>
 
 ---
 
-## Experiment 8: Check a > b using the conditional operator
+### Experiment 8: Check a > b using the conditional operator
 
-> **Aim:** To input two numbers a and b and check a > b using the conditional operator.
+> 🎯 **AIM:** To input two numbers a and b and check a > b using the conditional operator.
 
 ```c
 #include<stdio.h>
@@ -262,13 +274,13 @@ void main()
 }
 ```
 
-[⬆ Back to top](#-contents)
+<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-8-check-a--b-using-the-conditional-operator">⬆ to top of experiment 8</a></sub></p>
 
 ---
 
-## Experiment 9: Arithmetic and relational operations using short-name method
+### Experiment 9: Arithmetic and relational operations using short-name method
 
-> **Aim:** To perform arithmetic and relational operations using the short-hand method.
+> 🎯 **AIM:** To perform arithmetic and relational operations using the short-hand method.
 
 ```c
 #include<stdio.h>
@@ -310,13 +322,13 @@ void main()
 }
 ```
 
-[⬆ Back to top](#-contents)
+<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-9-arithmetic-and-relational-operations-using-short-name-method">⬆ to top of experiment 9</a></sub></p>
 
 ---
 
-## Experiment 10: Evaluate the expression (a+b)*c
+### Experiment 10: Evaluate the expression (a+b)*c
 
-> **Aim:** To evaluate the expression (a + b) * c.
+> 🎯 **AIM:** To evaluate the expression (a + b) * c.
 
 ```c
 #include<stdio.h>
@@ -337,13 +349,13 @@ void main()
 }
 ```
 
-[⬆ Back to top](#-contents)
+<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-10-evaluate-the-expression-abc">⬆ to top of experiment 10</a></sub></p>
 
 ---
 
-## Experiment 11: Equivalence of two numbers
+### Experiment 11: Equivalence of two numbers
 
-> **Aim:** To check the equivalence of two numbers.
+> 🎯 **AIM:** To check the equivalence of two numbers.
 
 ```c
 #include<stdio.h>
@@ -380,13 +392,13 @@ void main()
 }
 ```
 
-[⬆ Back to top](#-contents)
+<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-11-equivalence-of-two-numbers">⬆ to top of experiment 11</a></sub></p>
 
 ---
 
-## Experiment 12: Largest of two numbers
+### Experiment 12: Largest of two numbers
 
-> **Aim:** To find the largest of two numbers.
+> 🎯 **AIM:** To find the largest of two numbers.
 
 ```c
 #include<stdio.h>
@@ -408,13 +420,13 @@ void main()
 }
 ```
 
-[⬆ Back to top](#-contents)
+<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-12-largest-of-two-numbers">⬆ to top of experiment 12</a></sub></p>
 
 ---
 
-## Experiment 13: Maximum of three numbers
+### Experiment 13: Maximum of three numbers
 
-> **Aim:** To find the maximum of three numbers.
+> 🎯 **AIM:** To find the maximum of three numbers.
 
 ```c
 #include<stdio.h>
@@ -438,13 +450,13 @@ void main()
 }
 ```
 
-[⬆ Back to top](#-contents)
+<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-13-maximum-of-three-numbers">⬆ to top of experiment 13</a></sub></p>
 
 ---
 
-## Experiment 14: Smallest of two numbers
+### Experiment 14: Smallest of two numbers
 
-> **Aim:** To find the smallest of two numbers.
+> 🎯 **AIM:** To find the smallest of two numbers.
 
 ```c
 #include<stdio.h>
@@ -470,13 +482,13 @@ void main()
 }
 ```
 
-[⬆ Back to top](#-contents)
+<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-14-smallest-of-two-numbers">⬆ to top of experiment 14</a></sub></p>
 
 ---
 
-## Experiment 15: Energy bill using else-if ladder
+### Experiment 15: Energy bill using else-if ladder
 
-> **Aim:** To calculate the energy bill by reading the starting and ending meter readings using an else-if ladder.
+> 🎯 **AIM:** To calculate the energy bill by reading the starting and ending meter readings using an else-if ladder.
 
 ```c
 #include<stdio.h>
@@ -513,13 +525,13 @@ void main()
 }
 ```
 
-[⬆ Back to top](#-contents)
+<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-15-energy-bill-using-else-if-ladder">⬆ to top of experiment 15</a></sub></p>
 
 ---
 
-## Experiment 16: Leap year or not
+### Experiment 16: Leap year or not
 
-> **Aim:** To check whether a year is a leap year or not.
+> 🎯 **AIM:** To check whether a year is a leap year or not.
 
 ```c
 #include<stdio.h>
@@ -545,13 +557,13 @@ void main()
 }
 ```
 
-[⬆ Back to top](#-contents)
+<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-16-leap-year-or-not">⬆ to top of experiment 16</a></sub></p>
 
 ---
 
-## Experiment 17: Odd or even
+### Experiment 17: Odd or even
 
-> **Aim:** To check whether a number is odd or even.
+> 🎯 **AIM:** To check whether a number is odd or even.
 
 ```c
 #include<stdio.h>
@@ -577,15 +589,15 @@ void main()
 }
 ```
 
-[⬆ Back to top](#-contents)
+<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-17-odd-or-even">⬆ to top of experiment 17</a></sub></p>
 
 ---
 
-## Experiment 18: Gross salary of an employee
+### Experiment 18: Gross salary of an employee
 
-> **Aim:** To calculate the gross salary of an employee.
+> 🎯 **AIM:** To calculate the gross salary of an employee.
 
-**Conditions:**
+<details><summary>📋 <b>Conditions</b></summary>
 
 ```text
 Basic Salary    DA             HRA           Conveyance
@@ -593,6 +605,8 @@ Basic Salary    DA             HRA           Conveyance
 > 3000 & < 5000 100% of basic  15% of basic  400
 <= 3000         90% of basic   10% of basic  300
 ```
+
+</details>
 
 ```c
 #include<stdio.h>
@@ -635,15 +649,15 @@ void main()
 }
 ```
 
-[⬆ Back to top](#-contents)
+<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-18-gross-salary-of-an-employee">⬆ to top of experiment 18</a></sub></p>
 
 ---
 
-## Experiment 19: Average of six subjects with division classification
+### Experiment 19: Average of six subjects with division classification
 
-> **Aim:** To find the average of marks in six subjects and the result.
+> 🎯 **AIM:** To find the average of marks in six subjects and the result.
 
-**Conditions:**
+<details><summary>📋 <b>Conditions</b></summary>
 
 ```text
 Average              Result
@@ -653,6 +667,8 @@ Average              Result
 75 & 100             Distinction
 Mark in any subject < 35   Fail
 ```
+
+</details>
 
 ```c
 #include<stdio.h>
@@ -711,13 +727,13 @@ void main()
 }
 ```
 
-[⬆ Back to top](#-contents)
+<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-19-average-of-six-subjects-with-division-classification">⬆ to top of experiment 19</a></sub></p>
 
 ---
 
-## Experiment 20: Day of a week using switch case
+### Experiment 20: Day of a week using switch case
 
-> **Aim:** To print the day of a week using switch case.
+> 🎯 **AIM:** To print the day of a week using switch case.
 
 ```c
 #include<stdio.h>
@@ -770,13 +786,13 @@ void main()
 }
 ```
 
-[⬆ Back to top](#-contents)
+<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-20-day-of-a-week-using-switch-case">⬆ to top of experiment 20</a></sub></p>
 
 ---
 
-## Experiment 21: Menu driven arithmetic calculations using switch case
+### Experiment 21: Menu driven arithmetic calculations using switch case
 
-> **Aim:** To write a menu driven program to perform arithmetic calculations using switch case.
+> 🎯 **AIM:** To write a menu driven program to perform arithmetic calculations using switch case.
 
 ```c
 #include<stdio.h>
@@ -850,16 +866,21 @@ void main()
 }
 ```
 
-[⬆ Back to top](#-contents)
+<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-21-menu-driven-arithmetic-calculations-using-switch-case">⬆ to top of experiment 21</a></sub></p>
 
 ---
 
-## 📄 About
+<h2 align="center">📄 About</h2>
 
-- **Subject:** C Programming Lab
-- **Experiments:** 21
-- **Source:** Handwritten lab record ☞ digitized
-- **Full printable PDF:** [C_Lab_Record.pdf](./C_Lab_Record.pdf) — the complete formatted lab record (24 pages, ready to print)
-- **Repository:** [akhil-tg/01012008](https://github.com/akhil-tg/01012008)
+| | |
+|---|---|
+| 🎓 **Subject** | C Programming Lab |
+| 🧪 **Experiments** | 21 |
+| 🖊️ **Source** | Handwritten lab record, digitized |
+| 📄 **Full printable PDF** | [C_Lab_Record.pdf](./C_Lab_Record.pdf) — 24 pages, ready to print |
+| 🌐 **Repository** | [akhil-tg/01012008](https://github.com/akhil-tg/01012008) |
 
-⭐ If this helped you, feel free to star the repo!
+<p align="center">
+  <a href="https://github.com/akhil-tg"><img alt="author" src="https://img.shields.io/badge/Made%20with-%E2%9D%A4%EF%B8%8F%20%26%20C-blue?style=flat-square"/></a>
+</p>
+<p align="center"><i>⭐ If this helped you, feel free to star the repo!</i></p>
