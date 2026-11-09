@@ -859,6 +859,7 @@ void main()
 - **Subject:** C Programming Lab
 - **Experiments:** 21
 - **Source:** Handwritten lab record ☞ digitized
+- **Full printable PDF:** [C_Lab_Record.pdf](./C_Lab_Record.pdf) — the complete formatted lab record (24 pages, ready to print)
 - **Repository:** [akhil-tg/01012008](https://github.com/akhil-tg/01012008)
 
 ⭐ If this helped you, feel free to star the repo!
