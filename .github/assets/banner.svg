@@ -1,0 +1,68 @@
+<svg width="1000" height="270" viewBox="0 0 1000 270" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" role="img" aria-label="C Programming Lab Record — 28 experiments, digitized into clean copy-ready code">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EEF2FF"/>
+      <stop offset="1" stop-color="#E0E7FF"/>
+    </linearGradient>
+    <linearGradient id="chip" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F4F6FF"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="7" stdDeviation="9" flood-color="#4F46E5" flood-opacity="0.22"/>
+    </filter>
+    <filter id="lift" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#1E1B4B" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+
+  <!-- background -->
+  <rect width="1000" height="270" rx="24" fill="url(#bg)"/>
+
+  <!-- decorations -->
+  <circle cx="915" cy="30" r="90" fill="#FFFFFF" opacity="0.45"/>
+  <circle cx="60" cy="245" r="70" fill="#C7D2FE" opacity="0.35"/>
+  <circle cx="880" cy="235" r="26" fill="none" stroke="#EA580C" stroke-width="4" opacity="0.55"/>
+  <g fill="#4F46E5" opacity="0.18">
+    <circle cx="700" cy="38" r="3"/><circle cx="724" cy="38" r="3"/><circle cx="748" cy="38" r="3"/><circle cx="772" cy="38" r="3"/>
+    <circle cx="700" cy="62" r="3"/><circle cx="724" cy="62" r="3"/><circle cx="748" cy="62" r="3"/><circle cx="772" cy="62" r="3"/>
+    <circle cx="700" cy="86" r="3"/><circle cx="724" cy="86" r="3"/><circle cx="748" cy="86" r="3"/><circle cx="772" cy="86" r="3"/>
+  </g>
+
+  <!-- code editor card (clay style) -->
+  <g filter="url(#soft)">
+    <rect x="62" y="78" width="185" height="118" rx="20" fill="#FFFFFF" stroke="#4F46E5" stroke-width="4"/>
+  </g>
+  <circle cx="88" cy="102" r="6" fill="#4F46E5"/>
+  <circle cx="110" cy="102" r="6" fill="#818CF8"/>
+  <circle cx="132" cy="102" r="6" fill="#EA580C"/>
+  <g stroke-linecap="round">
+    <rect x="86" y="122" width="98" height="8" rx="4" fill="#C7D2FE"/>
+    <rect x="86" y="140" width="132" height="8" rx="4" fill="#E0E7FF"/>
+    <rect x="102" y="158" width="98" height="8" rx="4" fill="#FED7AA"/>
+    <rect x="86" y="176" width="76" height="8" rx="4" fill="#E0E7FF"/>
+  </g>
+
+  <!-- title -->
+  <text x="290" y="112" font-size="46" font-weight="800" fill="#4F46E5" letter-spacing="-1">C Programming</text>
+  <text x="290" y="164" font-size="46" font-weight="800" fill="#1E1B4B" letter-spacing="-1">Lab Record</text>
+  <text x="292" y="196" font-size="15.5" fill="#475569">28 handwritten experiments, digitized into clean, copy-ready code</text>
+
+  <!-- chips -->
+  <g filter="url(#lift)">
+    <rect x="292" y="212" width="150" height="36" rx="18" fill="url(#chip)" stroke="#C7D2FE" stroke-width="3"/>
+    <rect x="458" y="212" width="128" height="36" rx="18" fill="url(#chip)" stroke="#C7D2FE" stroke-width="3"/>
+    <rect x="602" y="212" width="146" height="36" rx="18" fill="#EA580C" stroke="#C2410C" stroke-width="3"/>
+  </g>
+  <text x="367" y="235" font-size="14" font-weight="700" fill="#1E1B4B" text-anchor="middle">28 Experiments</text>
+  <text x="522" y="235" font-size="14" font-weight="700" fill="#1E1B4B" text-anchor="middle">Language C</text>
+  <text x="675" y="235" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">GCC Verified ✓</text>
+
+  <!-- sparkles -->
+  <g fill="#EA580C">
+    <path d="M845 105 l4 11 11 4 -11 4 -4 11 -4 -11 -11 -4 11 -4 z"/>
+  </g>
+  <g fill="#4F46E5">
+    <path d="M950 150 l3 8 8 3 -8 3 -3 8 -3 -8 -8 -3 8 -3 z"/>
+  </g>
+</svg>

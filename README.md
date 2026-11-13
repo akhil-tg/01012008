@@ -1,11 +1,12 @@
-<h1 align="center">📘 C Programming Lab Record</h1>
-<p align="center"><i>A complete collection of <b>28 C programming experiments</b> — handwritten in a lab record book, carefully digitized into clean, copy-ready code.</i></p>
+<p align="center">
+  <img src=".github/assets/banner.svg" alt="C Programming Lab Record — a complete collection of 28 C programming experiments, digitized into clean, copy-ready code" width="100%"/>
+</p>
 
 <p align="center">
   <a href="https://github.com/akhil-tg/01012008/actions/workflows/run.yml"><img alt="Lab Build" src="https://github.com/akhil-tg/01012008/actions/workflows/run.yml/badge.svg"/></a>
-  <a href="https://github.com/akhil-tg/01012008"><img alt="experiments" src="https://img.shields.io/badge/Experiments-28-blue?style=for-the-badge&color=0969da"/></a>
-  <a href="https://github.com/akhil-tg/01012008"><img alt="language" src="https://img.shields.io/badge/Language-C-blue?style=for-the-badge&logo=c&color=2ea043"/></a>
-  <a href="https://github.com/akhil-tg/01012008/blob/main/C_Lab_Record.pdf"><img alt="pdf" src="https://img.shields.io/badge/Full_PDF-Available-orange?style=for-the-badge&color=c95110"/></a>
+  <a href="https://github.com/akhil-tg/01012008"><img alt="experiments" src="https://img.shields.io/badge/Experiments-28-818cf8?style=for-the-badge&logo=c&logoColor=white"/></a>
+  <a href="https://github.com/akhil-tg/01012008"><img alt="language" src="https://img.shields.io/badge/Language-C-1e1b4b?style=for-the-badge&logo=c&logoColor=white"/></a>
+  <a href="https://github.com/akhil-tg/01012008/blob/main/C_Lab_Record.pdf"><img alt="pdf" src="https://img.shields.io/badge/Full_PDF-35_pages-ea580c?style=for-the-badge&logo=adobeacrobatreader&logoColor=white"/></a>
 </p>
 
 <p align="center">✨ Every program below has a <b>1-click copy button</b> on GitHub — hover over a code block and press 📋</p>
