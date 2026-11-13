@@ -9,12 +9,20 @@
   <a href="https://github.com/akhil-tg/01012008/blob/main/C_Lab_Record.pdf"><img alt="pdf" src="https://img.shields.io/badge/Full_PDF-35_pages-ea580c?style=for-the-badge&logo=adobeacrobatreader&logoColor=white"/></a>
 </p>
 
+# C Programming Lab Record
+
+**28 C programming experiments, digitized from a handwritten lab record into clean, copy-ready code.**
+
+> 🎯 **The mission:** Learn C by reading, running, and modifying small, self-contained lab programs — no setup headaches, just `gcc` and go.
+
 <p align="center">✨ Every program below has a <b>1-click copy button</b> on GitHub — hover over a code block and press 📋</p>
 
 ---
 
+## 🚀 Quick Start — compile & run any program
+
 <details>
-<summary>🚀 <b>Quick Start — compile &amp; run any program</b></summary>
+<summary>📦 <b>Compile &amp; run any program</b></summary>
 
 ```bash
 # Compile with GCC
@@ -30,46 +38,73 @@ gcc <filename>.c -o program && ./program
 
 <h2 align="center">📑 Index</h2>
 
+<h3 align="center">🧮 Basics &amp; Formulas</h3>
+
 <p align="center">
-<table><thead>
-<tr><th align="center">No.</th><th align="center">Name of the Experiment</th></tr>
-</thead><tbody>
-<tr><td align="center"><b>1</b></td><td align="left"><a href="#experiment-1-c-program-to-print-the-size-of-different-data-types">C program to print the size of different data types</a></td></tr>
-<tr><td align="center"><b>2</b></td><td align="left"><a href="#experiment-2-perimeter-and-area-of-a-triangle">Perimeter and area of a triangle</a></td></tr>
-<tr><td align="center"><b>3</b></td><td align="left"><a href="#experiment-3-area-and-circumference-of-a-circle">Area and circumference of a circle</a></td></tr>
-<tr><td align="center"><b>4</b></td><td align="left"><a href="#experiment-4-convert-fahrenheit-to-celsius">Convert fahrenheit to celsius</a></td></tr>
-<tr><td align="center"><b>5</b></td><td align="left"><a href="#experiment-5-simple-interest">Simple interest</a></td></tr>
-<tr><td align="center"><b>6</b></td><td align="left"><a href="#experiment-6-swap-two-numbers-without-using-a-temporary-variable">Swap two numbers without using a temporary variable</a></td></tr>
-<tr><td align="center"><b>7</b></td><td align="left"><a href="#experiment-7-swap-two-numbers-using-a-temporary-variable">Swap two numbers using a temporary variable</a></td></tr>
-<tr><td align="center"><b>8</b></td><td align="left"><a href="#experiment-8-check-a--b-using-the-conditional-operator">Check a > b using the conditional operator</a></td></tr>
-<tr><td align="center"><b>9</b></td><td align="left"><a href="#experiment-9-arithmetic-and-relational-operations-using-short-name-method">Arithmetic and relational operations using short-name method</a></td></tr>
-<tr><td align="center"><b>10</b></td><td align="left"><a href="#experiment-10-evaluate-the-expression-abc">Evaluate the expression (a+b)*c</a></td></tr>
-<tr><td align="center"><b>11</b></td><td align="left"><a href="#experiment-11-equivalence-of-two-numbers">Equivalence of two numbers</a></td></tr>
-<tr><td align="center"><b>12</b></td><td align="left"><a href="#experiment-12-largest-of-two-numbers">Largest of two numbers</a></td></tr>
-<tr><td align="center"><b>13</b></td><td align="left"><a href="#experiment-13-maximum-of-three-numbers">Maximum of three numbers</a></td></tr>
-<tr><td align="center"><b>14</b></td><td align="left"><a href="#experiment-14-smallest-of-two-numbers">Smallest of two numbers</a></td></tr>
-<tr><td align="center"><b>15</b></td><td align="left"><a href="#experiment-15-energy-bill-using-else-if-ladder">Energy bill using else-if ladder</a></td></tr>
-<tr><td align="center"><b>16</b></td><td align="left"><a href="#experiment-16-leap-year-or-not">Leap year or not</a></td></tr>
-<tr><td align="center"><b>17</b></td><td align="left"><a href="#experiment-17-odd-or-even">Odd or even</a></td></tr>
-<tr><td align="center"><b>18</b></td><td align="left"><a href="#experiment-18-gross-salary-of-an-employee">Gross salary of an employee</a></td></tr>
-<tr><td align="center"><b>19</b></td><td align="left"><a href="#experiment-19-average-of-six-subjects-with-division-classification">Average of six subjects with division classification</a></td></tr>
-<tr><td align="center"><b>20</b></td><td align="left"><a href="#experiment-20-day-of-a-week-using-switch-case">Day of a week using switch case</a></td></tr>
-<tr><td align="center"><b>21</b></td><td align="left"><a href="#experiment-21-menu-driven-arithmetic-calculations-using-switch-case">Menu driven arithmetic calculations using switch case</a></td></tr>
-<tr><td align="center"><b>22</b></td><td align="left"><a href="#experiment-22-display-star-pattern">Display star pattern</a></td></tr>
-<tr><td align="center"><b>23</b></td><td align="left"><a href="#experiment-23-display-number-triangle-pattern">Display number triangle pattern</a></td></tr>
-<tr><td align="center"><b>24</b></td><td align="left"><a href="#experiment-24-print-floyd-triangle">Print Floyd triangle</a></td></tr>
-<tr><td align="center"><b>25</b></td><td align="left"><a href="#experiment-25-find-the-sum-of-array-elements">Find the sum of array elements</a></td></tr>
-<tr><td align="center"><b>26</b></td><td align="left"><a href="#experiment-26-find-the-largest-element-in-an-array">Find the largest element in an array</a></td></tr>
-<tr><td align="center"><b>27</b></td><td align="left"><a href="#experiment-27-display-a-matrix">Display a matrix</a></td></tr>
-<tr><td align="center"><b>28</b></td><td align="left"><a href="#experiment-28-addition-of-two-matrices">Addition of two matrices</a></td></tr>
-</tbody></table>
+  <a href="#experiment-1-c-program-to-print-the-size-of-different-data-types"><img alt="Experiment 1: C program to print the size of different data types" src="https://img.shields.io/badge/01-C_program_to_print_the_size_of_different_data_types-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
+  <a href="#experiment-2-perimeter-and-area-of-a-triangle"><img alt="Experiment 2: Perimeter and area of a triangle" src="https://img.shields.io/badge/02-Perimeter_and_area_of_a_triangle-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
+  <a href="#experiment-3-area-and-circumference-of-a-circle"><img alt="Experiment 3: Area and circumference of a circle" src="https://img.shields.io/badge/03-Area_and_circumference_of_a_circle-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
+  <a href="#experiment-4-convert-fahrenheit-to-celsius"><img alt="Experiment 4: Convert fahrenheit to celsius" src="https://img.shields.io/badge/04-Convert_fahrenheit_to_celsius-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
+  <a href="#experiment-5-simple-interest"><img alt="Experiment 5: Simple interest" src="https://img.shields.io/badge/05-Simple_interest-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
+</p>
+
+<h3 align="center">🔁 Operators</h3>
+
+<p align="center">
+  <a href="#experiment-6-swap-two-numbers-without-using-a-temporary-variable"><img alt="Experiment 6: Swap two numbers without using a temporary variable" src="https://img.shields.io/badge/06-Swap_two_numbers_without_using_a_temporary_variable-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
+  <a href="#experiment-7-swap-two-numbers-using-a-temporary-variable"><img alt="Experiment 7: Swap two numbers using a temporary variable" src="https://img.shields.io/badge/07-Swap_two_numbers_using_a_temporary_variable-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
+  <a href="#experiment-8-check-a--b-using-the-conditional-operator"><img alt="Experiment 8: Check a > b using the conditional operator" src="https://img.shields.io/badge/08-Check_a_%3E_b_using_the_conditional_operator-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
+  <a href="#experiment-9-arithmetic-and-relational-operations-using-short-name-method"><img alt="Experiment 9: Arithmetic and relational operations using short-name method" src="https://img.shields.io/badge/09-Arithmetic_and_relational_operations_using_short--name_method-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
+  <a href="#experiment-10-evaluate-the-expression-abc"><img alt="Experiment 10: Evaluate the expression (a+b)*c" src="https://img.shields.io/badge/10-Evaluate_the_expression_(a%2Bb)*c-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
+  <a href="#experiment-11-equivalence-of-two-numbers"><img alt="Experiment 11: Equivalence of two numbers" src="https://img.shields.io/badge/11-Equivalence_of_two_numbers-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
+</p>
+
+<h3 align="center">🔀 Conditionals</h3>
+
+<p align="center">
+  <a href="#experiment-12-largest-of-two-numbers"><img alt="Experiment 12: Largest of two numbers" src="https://img.shields.io/badge/12-Largest_of_two_numbers-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
+  <a href="#experiment-13-maximum-of-three-numbers"><img alt="Experiment 13: Maximum of three numbers" src="https://img.shields.io/badge/13-Maximum_of_three_numbers-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
+  <a href="#experiment-14-smallest-of-two-numbers"><img alt="Experiment 14: Smallest of two numbers" src="https://img.shields.io/badge/14-Smallest_of_two_numbers-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
+  <a href="#experiment-15-energy-bill-using-else-if-ladder"><img alt="Experiment 15: Energy bill using else-if ladder" src="https://img.shields.io/badge/15-Energy_bill_using_else--if_ladder-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
+  <a href="#experiment-16-leap-year-or-not"><img alt="Experiment 16: Leap year or not" src="https://img.shields.io/badge/16-Leap_year_or_not-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
+  <a href="#experiment-17-odd-or-even"><img alt="Experiment 17: Odd or even" src="https://img.shields.io/badge/17-Odd_or_even-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
+  <a href="#experiment-18-gross-salary-of-an-employee"><img alt="Experiment 18: Gross salary of an employee" src="https://img.shields.io/badge/18-Gross_salary_of_an_employee-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
+  <a href="#experiment-19-average-of-six-subjects-with-division-classification"><img alt="Experiment 19: Average of six subjects with division classification" src="https://img.shields.io/badge/19-Average_of_six_subjects_with_division_classification-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
+</p>
+
+<h3 align="center">🎛️ Switch &amp; Menus</h3>
+
+<p align="center">
+  <a href="#experiment-20-day-of-a-week-using-switch-case"><img alt="Experiment 20: Day of a week using switch case" src="https://img.shields.io/badge/20-Day_of_a_week_using_switch_case-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
+  <a href="#experiment-21-menu-driven-arithmetic-calculations-using-switch-case"><img alt="Experiment 21: Menu driven arithmetic calculations using switch case" src="https://img.shields.io/badge/21-Menu_driven_arithmetic_calculations_using_switch_case-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
+</p>
+
+<h3 align="center">✨ Loops &amp; Patterns</h3>
+
+<p align="center">
+  <a href="#experiment-22-display-star-pattern"><img alt="Experiment 22: Display star pattern" src="https://img.shields.io/badge/22-Display_star_pattern-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
+  <a href="#experiment-23-display-number-triangle-pattern"><img alt="Experiment 23: Display number triangle pattern" src="https://img.shields.io/badge/23-Display_number_triangle_pattern-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
+  <a href="#experiment-24-print-floyd-triangle"><img alt="Experiment 24: Print Floyd triangle" src="https://img.shields.io/badge/24-Print_Floyd_triangle-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
+</p>
+
+<h3 align="center">📦 Arrays &amp; Matrices</h3>
+
+<p align="center">
+  <a href="#experiment-25-find-the-sum-of-array-elements"><img alt="Experiment 25: Find the sum of array elements" src="https://img.shields.io/badge/25-Find_the_sum_of_array_elements-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
+  <a href="#experiment-26-find-the-largest-element-in-an-array"><img alt="Experiment 26: Find the largest element in an array" src="https://img.shields.io/badge/26-Find_the_largest_element_in_an_array-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
+  <a href="#experiment-27-display-a-matrix"><img alt="Experiment 27: Display a matrix" src="https://img.shields.io/badge/27-Display_a_matrix-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
+  <a href="#experiment-28-addition-of-two-matrices"><img alt="Experiment 28: Addition of two matrices" src="https://img.shields.io/badge/28-Addition_of_two_matrices-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
 </p>
 
 ---
 
+## 🧪 Experiments
+
 ### Experiment 1: C program to print the size of different data types
 
 > 🎯 **AIM:** To write a C program to print the size of different data types.
+
+<p align="left"><sub>🧠 Concepts: `data types` · `sizeof`</sub></p>
 
 ```c
 #include<stdio.h>
@@ -87,8 +122,10 @@ void main()
 ```
 
 💡 **Sample Run**
-> **Input:** `(none)`
-> **Output:** `Size of int = 4 bytes | Size of char = 1 byte | Size of float = 4 bytes | Size of double = 8 bytes`
+
+| 📥 Input | 📤 Output |
+|----------|-----------|
+| `(none)` | `Size of int = 4 bytes \| Size of char = 1 byte \| Size of float = 4 bytes \| Size of double = 8 bytes` |
 
 
 <p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-1-c-program-to-print-the-size-of-different-data-types">⬆ to top of experiment 1</a></sub></p>
@@ -98,6 +135,8 @@ void main()
 ### Experiment 2: Perimeter and area of a triangle
 
 > 🎯 **AIM:** To find the perimeter and area of a triangle.
+
+<p align="left"><sub>🧠 Concepts: `math.h` · `Heron's formula`</sub></p>
 
 ```c
 #include<stdio.h>
@@ -123,8 +162,10 @@ void main()
 ```
 
 💡 **Sample Run**
-> **Input:** `3 4 5`
-> **Output:** `Perimeter = 12.000000 | Area = 6.000000`
+
+| 📥 Input | 📤 Output |
+|----------|-----------|
+| `3 4 5` | `Perimeter = 12.000000 \| Area = 6.000000` |
 
 
 <p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-2-perimeter-and-area-of-a-triangle">⬆ to top of experiment 2</a></sub></p>
@@ -134,6 +175,8 @@ void main()
 ### Experiment 3: Area and circumference of a circle
 
 > 🎯 **AIM:** To find the area and circumference of a circle.
+
+<p align="left"><sub>🧠 Concepts: `float` · `π constant`</sub></p>
 
 ```c
 #include<stdio.h>
@@ -157,8 +200,10 @@ void main()
 ```
 
 💡 **Sample Run**
-> **Input:** `7`
-> **Output:** `Area = 153.860001 | Circumference = 43.959999`
+
+| 📥 Input | 📤 Output |
+|----------|-----------|
+| `7` | `Area = 153.860001 \| Circumference = 43.959999` |
 
 
 <p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-3-area-and-circumference-of-a-circle">⬆ to top of experiment 3</a></sub></p>
@@ -168,6 +213,8 @@ void main()
 ### Experiment 4: Convert Fahrenheit to Celsius
 
 > 🎯 **AIM:** To convert temperature in Fahrenheit to Celsius.
+
+<p align="left"><sub>🧠 Concepts: `float` · `temperature formula`</sub></p>
 
 ```c
 #include<stdio.h>
@@ -189,8 +236,10 @@ void main()
 ```
 
 💡 **Sample Run**
-> **Input:** `98.6`
-> **Output:** `Temperature in Celsius = 37.000000`
+
+| 📥 Input | 📤 Output |
+|----------|-----------|
+| `98.6` | `Temperature in Celsius = 37.000000` |
 
 
 <p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-4-convert-fahrenheit-to-celsius">⬆ to top of experiment 4</a></sub></p>
@@ -200,6 +249,8 @@ void main()
 ### Experiment 5: Simple interest
 
 > 🎯 **AIM:** To find the Simple Interest.
+
+<p align="left"><sub>🧠 Concepts: `float` · `arithmetic formula`</sub></p>
 
 ```c
 #include<stdio.h>
@@ -221,8 +272,10 @@ void main()
 ```
 
 💡 **Sample Run**
-> **Input:** `1000 5 2`
-> **Output:** `Simple Interest = 100.000000`
+
+| 📥 Input | 📤 Output |
+|----------|-----------|
+| `1000 5 2` | `Simple Interest = 100.000000` |
 
 
 <p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-5-simple-interest">⬆ to top of experiment 5</a></sub></p>
@@ -232,6 +285,8 @@ void main()
 ### Experiment 6: Swap two numbers without using a temporary variable
 
 > 🎯 **AIM:** To swap two numbers without using a temporary variable.
+
+<p align="left"><sub>🧠 Concepts: `arithmetic swap` · `no extra variable`</sub></p>
 
 ```c
 #include<stdio.h>
@@ -255,8 +310,10 @@ void main()
 ```
 
 💡 **Sample Run**
-> **Input:** `10 20`
-> **Output:** `After swapping : a = 20, b = 10`
+
+| 📥 Input | 📤 Output |
+|----------|-----------|
+| `10 20` | `After swapping : a = 20, b = 10` |
 
 
 <p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-6-swap-two-numbers-without-using-a-temporary-variable">⬆ to top of experiment 6</a></sub></p>
@@ -266,6 +323,8 @@ void main()
 ### Experiment 7: Swap two numbers using a temporary variable
 
 > 🎯 **AIM:** To swap two numbers using a temporary variable.
+
+<p align="left"><sub>🧠 Concepts: `temp variable` · `assignment`</sub></p>
 
 ```c
 #include<stdio.h>
@@ -289,8 +348,10 @@ void main()
 ```
 
 💡 **Sample Run**
-> **Input:** `10 20`
-> **Output:** `After swapping : a = 20, b = 10`
+
+| 📥 Input | 📤 Output |
+|----------|-----------|
+| `10 20` | `After swapping : a = 20, b = 10` |
 
 
 <p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-7-swap-two-numbers-using-a-temporary-variable">⬆ to top of experiment 7</a></sub></p>
@@ -300,6 +361,8 @@ void main()
 ### Experiment 8: Check a > b using the conditional operator
 
 > 🎯 **AIM:** To input two numbers a and b and check a > b using the conditional operator.
+
+<p align="left"><sub>🧠 Concepts: `ternary operator` · `conditionals`</sub></p>
 
 ```c
 #include<stdio.h>
@@ -319,8 +382,10 @@ void main()
 ```
 
 💡 **Sample Run**
-> **Input:** `5 3`
-> **Output:** `a is greater`
+
+| 📥 Input | 📤 Output |
+|----------|-----------|
+| `5 3` | `a is greater` |
 
 
 <p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-8-check-a--b-using-the-conditional-operator">⬆ to top of experiment 8</a></sub></p>
@@ -330,6 +395,8 @@ void main()
 ### Experiment 9: Arithmetic and relational operations using short-name method
 
 > 🎯 **AIM:** To perform arithmetic and relational operations using the short-hand method.
+
+<p align="left"><sub>🧠 Concepts: `shorthand operators` · `relational operators`</sub></p>
 
 ```c
 #include<stdio.h>
@@ -372,8 +439,10 @@ void main()
 ```
 
 💡 **Sample Run**
-> **Input:** `10 5`
-> **Output:** `Addition = 15 | Subtraction = 5 | Multiplication = 50 | Division = 2`
+
+| 📥 Input | 📤 Output |
+|----------|-----------|
+| `10 5` | `Addition = 15 \| Subtraction = 5 \| Multiplication = 50 \| Division = 2` |
 
 
 <p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-9-arithmetic-and-relational-operations-using-short-name-method">⬆ to top of experiment 9</a></sub></p>
@@ -383,6 +452,8 @@ void main()
 ### Experiment 10: Evaluate the expression (a+b)*c
 
 > 🎯 **AIM:** To evaluate the expression (a + b) * c.
+
+<p align="left"><sub>🧠 Concepts: `operator precedence` · `int input`</sub></p>
 
 ```c
 #include<stdio.h>
@@ -404,8 +475,10 @@ void main()
 ```
 
 💡 **Sample Run**
-> **Input:** `2 3 4`
-> **Output:** `Result = 20`
+
+| 📥 Input | 📤 Output |
+|----------|-----------|
+| `2 3 4` | `Result = 20` |
 
 
 <p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-10-evaluate-the-expression-abc">⬆ to top of experiment 10</a></sub></p>
@@ -415,6 +488,8 @@ void main()
 ### Experiment 11: Equivalence of two numbers
 
 > 🎯 **AIM:** To check the equivalence of two numbers.
+
+<p align="left"><sub>🧠 Concepts: `if-else` · `nested conditions`</sub></p>
 
 ```c
 #include<stdio.h>
@@ -452,8 +527,10 @@ void main()
 ```
 
 💡 **Sample Run**
-> **Input:** `5 5`
-> **Output:** `Condition (a==b) is TRUE | Condition (a-b==0) is TRUE | Condition (a/b==1) is TRUE`
+
+| 📥 Input | 📤 Output |
+|----------|-----------|
+| `5 5` | `Condition (a==b) is TRUE \| Condition (a-b==0) is TRUE \| Condition (a/b==1) is TRUE` |
 
 
 <p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-11-equivalence-of-two-numbers">⬆ to top of experiment 11</a></sub></p>
@@ -463,6 +540,8 @@ void main()
 ### Experiment 12: Largest of two numbers
 
 > 🎯 **AIM:** To find the largest of two numbers.
+
+<p align="left"><sub>🧠 Concepts: `if-else` · `comparison`</sub></p>
 
 ```c
 #include<stdio.h>
@@ -485,8 +564,10 @@ void main()
 ```
 
 💡 **Sample Run**
-> **Input:** `7 3`
-> **Output:** `a is larger`
+
+| 📥 Input | 📤 Output |
+|----------|-----------|
+| `7 3` | `a is larger` |
 
 
 <p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-12-largest-of-two-numbers">⬆ to top of experiment 12</a></sub></p>
@@ -496,6 +577,8 @@ void main()
 ### Experiment 13: Maximum of three numbers
 
 > 🎯 **AIM:** To find the maximum of three numbers.
+
+<p align="left"><sub>🧠 Concepts: `logical AND` · `else-if ladder`</sub></p>
 
 ```c
 #include<stdio.h>
@@ -520,8 +603,10 @@ void main()
 ```
 
 💡 **Sample Run**
-> **Input:** `3 9 5`
-> **Output:** `B is largest`
+
+| 📥 Input | 📤 Output |
+|----------|-----------|
+| `3 9 5` | `B is largest` |
 
 
 <p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-13-maximum-of-three-numbers">⬆ to top of experiment 13</a></sub></p>
@@ -531,6 +616,8 @@ void main()
 ### Experiment 14: Smallest of two numbers
 
 > 🎯 **AIM:** To find the smallest of two numbers.
+
+<p align="left"><sub>🧠 Concepts: `if-else` · `comparison`</sub></p>
 
 ```c
 #include<stdio.h>
@@ -557,8 +644,10 @@ void main()
 ```
 
 💡 **Sample Run**
-> **Input:** `4 8`
-> **Output:** `a is smaller`
+
+| 📥 Input | 📤 Output |
+|----------|-----------|
+| `4 8` | `a is smaller` |
 
 
 <p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-14-smallest-of-two-numbers">⬆ to top of experiment 14</a></sub></p>
@@ -568,6 +657,8 @@ void main()
 ### Experiment 15: Energy bill using else-if ladder
 
 > 🎯 **AIM:** To calculate the energy bill by reading the starting and ending meter readings using an else-if ladder.
+
+<p align="left"><sub>🧠 Concepts: `else-if ladder` · `bill calculation`</sub></p>
 
 ```c
 #include<stdio.h>
@@ -605,8 +696,10 @@ void main()
 ```
 
 💡 **Sample Run**
-> **Input:** `1000 -> 1250`
-> **Output:** `Units consumed = 250.000000 | Energy bill = Rs 625.000000`
+
+| 📥 Input | 📤 Output |
+|----------|-----------|
+| `1000 -> 1250` | `Units consumed = 250.000000 \| Energy bill = Rs 625.000000` |
 
 
 <p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-15-energy-bill-using-else-if-ladder">⬆ to top of experiment 15</a></sub></p>
@@ -616,6 +709,8 @@ void main()
 ### Experiment 16: Leap year or not
 
 > 🎯 **AIM:** To check whether a year is a leap year or not.
+
+<p align="left"><sub>🧠 Concepts: `modulo` · `if-else`</sub></p>
 
 ```c
 #include<stdio.h>
@@ -642,8 +737,10 @@ void main()
 ```
 
 💡 **Sample Run**
-> **Input:** `2024`
-> **Output:** `Leap year`
+
+| 📥 Input | 📤 Output |
+|----------|-----------|
+| `2024` | `Leap year` |
 
 
 <p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-16-leap-year-or-not">⬆ to top of experiment 16</a></sub></p>
@@ -653,6 +750,8 @@ void main()
 ### Experiment 17: Odd or even
 
 > 🎯 **AIM:** To check whether a number is odd or even.
+
+<p align="left"><sub>🧠 Concepts: `modulo` · `if-else`</sub></p>
 
 ```c
 #include<stdio.h>
@@ -679,8 +778,10 @@ void main()
 ```
 
 💡 **Sample Run**
-> **Input:** `7`
-> **Output:** `a is odd`
+
+| 📥 Input | 📤 Output |
+|----------|-----------|
+| `7` | `a is odd` |
 
 
 <p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-17-odd-or-even">⬆ to top of experiment 17</a></sub></p>
@@ -690,6 +791,8 @@ void main()
 ### Experiment 18: Gross salary of an employee
 
 > 🎯 **AIM:** To calculate the gross salary of an employee.
+
+<p align="left"><sub>🧠 Concepts: `else-if ladder` · `salary formula`</sub></p>
 
 <details><summary>📋 <b>Conditions</b></summary>
 
@@ -744,8 +847,10 @@ void main()
 ```
 
 💡 **Sample Run**
-> **Input:** `6000`
-> **Output:** `Gross salary = 14300.00`
+
+| 📥 Input | 📤 Output |
+|----------|-----------|
+| `6000` | `Gross salary = 14300.00` |
 
 
 <p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-18-gross-salary-of-an-employee">⬆ to top of experiment 18</a></sub></p>
@@ -755,6 +860,8 @@ void main()
 ### Experiment 19: Average of six subjects with division classification
 
 > 🎯 **AIM:** To find the average of marks in six subjects and the result.
+
+<p align="left"><sub>🧠 Concepts: `do-while loop` · `1D arrays`</sub></p>
 
 <details><summary>📋 <b>Conditions</b></summary>
 
@@ -827,8 +934,10 @@ void main()
 ```
 
 💡 **Sample Run**
-> **Input:** `80,85,90,95,88,75`
-> **Output:** `Average mark : 85.50 | Result : Distinction`
+
+| 📥 Input | 📤 Output |
+|----------|-----------|
+| `80,85,90,95,88,75` | `Average mark : 85.50 \| Result : Distinction` |
 
 
 <p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-19-average-of-six-subjects-with-division-classification">⬆ to top of experiment 19</a></sub></p>
@@ -838,6 +947,8 @@ void main()
 ### Experiment 20: Day of a week using switch case
 
 > 🎯 **AIM:** To print the day of a week using switch case.
+
+<p align="left"><sub>🧠 Concepts: `switch-case` · `break`</sub></p>
 
 ```c
 #include<stdio.h>
@@ -891,8 +1002,10 @@ void main()
 ```
 
 💡 **Sample Run**
-> **Input:** `3`
-> **Output:** `Tuesday`
+
+| 📥 Input | 📤 Output |
+|----------|-----------|
+| `3` | `Tuesday` |
 
 
 <p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-20-day-of-a-week-using-switch-case">⬆ to top of experiment 20</a></sub></p>
@@ -902,6 +1015,8 @@ void main()
 ### Experiment 21: Menu driven arithmetic calculations using switch case
 
 > 🎯 **AIM:** To write a menu driven program to perform arithmetic calculations using switch case.
+
+<p align="left"><sub>🧠 Concepts: `switch-case` · `menu-driven`</sub></p>
 
 ```c
 #include<stdio.h>
@@ -976,8 +1091,10 @@ void main()
 ```
 
 💡 **Sample Run**
-> **Input:** `1 -> 10 5`
-> **Output:** `Addition = 15.00`
+
+| 📥 Input | 📤 Output |
+|----------|-----------|
+| `1 -> 10 5` | `Addition = 15.00` |
 
 
 <p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-21-menu-driven-arithmetic-calculations-using-switch-case">⬆ to top of experiment 21</a></sub></p>
@@ -987,6 +1104,8 @@ void main()
 ### Experiment 22: Display star pattern
 
 > 🎯 **AIM:** To display the star pattern.
+
+<p align="left"><sub>🧠 Concepts: `nested for loops` · `patterns`</sub></p>
 
 ```c
 #include<stdio.h>
@@ -1010,8 +1129,10 @@ void main()
 ```
 
 💡 **Sample Run**
-> **Input:** `(none)`
-> **Output:** `* / ** / *** / **** / *****`
+
+| 📥 Input | 📤 Output |
+|----------|-----------|
+| `(none)` | `*<br>**<br>***<br>****<br>*****` |
 
 
 <p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-22-display-star-pattern">⬆ to top of experiment 22</a></sub></p>
@@ -1021,6 +1142,8 @@ void main()
 ### Experiment 23: Display number triangle pattern
 
 > 🎯 **AIM:** To display the number triangle pattern.
+
+<p align="left"><sub>🧠 Concepts: `nested for loops` · `patterns`</sub></p>
 
 ```c
 #include<stdio.h>
@@ -1044,8 +1167,10 @@ void main()
 ```
 
 💡 **Sample Run**
-> **Input:** `(none)`
-> **Output:** `1 / 12 / 123 / 1234 / 12345`
+
+| 📥 Input | 📤 Output |
+|----------|-----------|
+| `(none)` | `1<br>12<br>123<br>1234<br>12345` |
 
 
 <p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-23-display-number-triangle-pattern">⬆ to top of experiment 23</a></sub></p>
@@ -1055,6 +1180,8 @@ void main()
 ### Experiment 24: Print Floyd triangle
 
 > 🎯 **AIM:** To display the Floyd triangle.
+
+<p align="left"><sub>🧠 Concepts: `nested for loops` · `counter variable`</sub></p>
 
 ```c
 #include<stdio.h>
@@ -1079,8 +1206,10 @@ void main()
 ```
 
 💡 **Sample Run**
-> **Input:** `(none)`
-> **Output:** `1 / 2 3 / 4 5 6 / 7 8 9 10 / 11 12 13 14 15`
+
+| 📥 Input | 📤 Output |
+|----------|-----------|
+| `(none)` | `1<br>2 3<br>4 5 6<br>7 8 9 10<br>11 12 13 14 15` |
 
 
 <p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-24-print-floyd-triangle">⬆ to top of experiment 24</a></sub></p>
@@ -1090,6 +1219,8 @@ void main()
 ### Experiment 25: Find the sum of array elements
 
 > 🎯 **AIM:** To find the sum of array elements.
+
+<p align="left"><sub>🧠 Concepts: `1D arrays` · `for loop`</sub></p>
 
 ```c
 #include<stdio.h>
@@ -1117,8 +1248,10 @@ void main()
 ```
 
 💡 **Sample Run**
-> **Input:** `5 -> 1 2 3 4 5`
-> **Output:** `Sum of array elements = 15`
+
+| 📥 Input | 📤 Output |
+|----------|-----------|
+| `5 -> 1 2 3 4 5` | `Sum of array elements = 15` |
 
 
 <p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-25-find-the-sum-of-array-elements">⬆ to top of experiment 25</a></sub></p>
@@ -1128,6 +1261,8 @@ void main()
 ### Experiment 26: Find the largest element in an array
 
 > 🎯 **AIM:** To find the largest element in an array.
+
+<p align="left"><sub>🧠 Concepts: `1D arrays` · `comparison`</sub></p>
 
 ```c
 #include<stdio.h>
@@ -1163,8 +1298,10 @@ void main()
 ```
 
 💡 **Sample Run**
-> **Input:** `5 -> 3 9 4 7 1`
-> **Output:** `Largest element = 9`
+
+| 📥 Input | 📤 Output |
+|----------|-----------|
+| `5 -> 3 9 4 7 1` | `Largest element = 9` |
 
 
 <p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-26-find-the-largest-element-in-an-array">⬆ to top of experiment 26</a></sub></p>
@@ -1174,6 +1311,8 @@ void main()
 ### Experiment 27: Display a matrix
 
 > 🎯 **AIM:** To display a matrix.
+
+<p align="left"><sub>🧠 Concepts: `2D arrays` · `nested loops`</sub></p>
 
 ```c
 #include<stdio.h>
@@ -1211,8 +1350,10 @@ void main()
 ```
 
 💡 **Sample Run**
-> **Input:** `2 3 -> 1 2 3 4 5 6`
-> **Output:** `1 2 3 / 4 5 6`
+
+| 📥 Input | 📤 Output |
+|----------|-----------|
+| `2 3 -> 1 2 3 4 5 6` | `1 2 3<br>4 5 6` |
 
 
 <p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-27-display-a-matrix">⬆ to top of experiment 27</a></sub></p>
@@ -1222,6 +1363,8 @@ void main()
 ### Experiment 28: Addition of two matrices
 
 > 🎯 **AIM:** To add two matrices.
+
+<p align="left"><sub>🧠 Concepts: `2D arrays` · `matrix addition`</sub></p>
 
 ```c
 #include<stdio.h>
@@ -1276,8 +1419,10 @@ void main()
 ```
 
 💡 **Sample Run**
-> **Input:** `2 2 -> 1 2 3 4 | 5 6 7 8`
-> **Output:** `6 8 / 10 12`
+
+| 📥 Input | 📤 Output |
+|----------|-----------|
+| `2 2 -> 1 2 3 4 \| 5 6 7 8` | `6 8<br>10 12` |
 
 
 <p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-28-addition-of-two-matrices">⬆ to top of experiment 28</a></sub></p>
