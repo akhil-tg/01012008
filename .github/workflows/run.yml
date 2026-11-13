@@ -12,7 +12,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Compile and run all 21 experiments
+      - name: Compile and run all 28 experiments
         run: |
           set -u
           ok=0; total=0; failed=0

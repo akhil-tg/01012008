@@ -1,9 +1,9 @@
 <h1 align="center">📘 C Programming Lab Record</h1>
-<p align="center"><i>A complete collection of <b>21 C programming experiments</b> — handwritten in a lab record book, carefully digitized into clean, copy-ready code.</i></p>
+<p align="center"><i>A complete collection of <b>28 C programming experiments</b> — handwritten in a lab record book, carefully digitized into clean, copy-ready code.</i></p>
 
 <p align="center">
   <a href="https://github.com/akhil-tg/01012008/actions/workflows/run.yml"><img alt="Lab Build" src="https://github.com/akhil-tg/01012008/actions/workflows/run.yml/badge.svg"/></a>
-  <a href="https://github.com/akhil-tg/01012008"><img alt="experiments" src="https://img.shields.io/badge/Experiments-21-blue?style=for-the-badge&color=0969da"/></a>
+  <a href="https://github.com/akhil-tg/01012008"><img alt="experiments" src="https://img.shields.io/badge/Experiments-28-blue?style=for-the-badge&color=0969da"/></a>
   <a href="https://github.com/akhil-tg/01012008"><img alt="language" src="https://img.shields.io/badge/Language-C-blue?style=for-the-badge&logo=c&color=2ea043"/></a>
   <a href="https://github.com/akhil-tg/01012008/blob/main/C_Lab_Record.pdf"><img alt="pdf" src="https://img.shields.io/badge/Full_PDF-Available-orange?style=for-the-badge&color=c95110"/></a>
 </p>
@@ -54,6 +54,13 @@ gcc <filename>.c -o program && ./program
 <tr><td align="center"><b>19</b></td><td align="left"><a href="#experiment-19-average-of-six-subjects-with-division-classification">Average of six subjects with division classification</a></td></tr>
 <tr><td align="center"><b>20</b></td><td align="left"><a href="#experiment-20-day-of-a-week-using-switch-case">Day of a week using switch case</a></td></tr>
 <tr><td align="center"><b>21</b></td><td align="left"><a href="#experiment-21-menu-driven-arithmetic-calculations-using-switch-case">Menu driven arithmetic calculations using switch case</a></td></tr>
+<tr><td align="center"><b>22</b></td><td align="left"><a href="#experiment-22-display-star-pattern">Display star pattern</a></td></tr>
+<tr><td align="center"><b>23</b></td><td align="left"><a href="#experiment-23-display-number-triangle-pattern">Display number triangle pattern</a></td></tr>
+<tr><td align="center"><b>24</b></td><td align="left"><a href="#experiment-24-print-floyd-triangle">Print Floyd triangle</a></td></tr>
+<tr><td align="center"><b>25</b></td><td align="left"><a href="#experiment-25-find-the-sum-of-array-elements">Find the sum of array elements</a></td></tr>
+<tr><td align="center"><b>26</b></td><td align="left"><a href="#experiment-26-find-the-largest-element-in-an-array">Find the largest element in an array</a></td></tr>
+<tr><td align="center"><b>27</b></td><td align="left"><a href="#experiment-27-display-a-matrix">Display a matrix</a></td></tr>
+<tr><td align="center"><b>28</b></td><td align="left"><a href="#experiment-28-addition-of-two-matrices">Addition of two matrices</a></td></tr>
 </tbody></table>
 </p>
 
@@ -976,14 +983,314 @@ void main()
 
 ---
 
+### Experiment 22: Display star pattern
+
+> 🎯 **AIM:** To display the star pattern.
+
+```c
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    int i, j;
+    clrscr();
+
+    for (i = 1; i <= 5; i++)
+    {
+        for (j = 1; j <= i; j++)
+        {
+            printf("*");
+        }
+        printf("\n");
+    }
+
+    getch();
+}
+```
+
+💡 **Sample Run**
+> **Input:** `(none)`
+> **Output:** `* / ** / *** / **** / *****`
+
+
+<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-22-display-star-pattern">⬆ to top of experiment 22</a></sub></p>
+
+---
+
+### Experiment 23: Display number triangle pattern
+
+> 🎯 **AIM:** To display the number triangle pattern.
+
+```c
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    int i, j;
+    clrscr();
+
+    for (i = 1; i <= 5; i++)
+    {
+        for (j = 1; j <= i; j++)
+        {
+            printf("%d", j);
+        }
+        printf("\n");
+    }
+
+    getch();
+}
+```
+
+💡 **Sample Run**
+> **Input:** `(none)`
+> **Output:** `1 / 12 / 123 / 1234 / 12345`
+
+
+<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-23-display-number-triangle-pattern">⬆ to top of experiment 23</a></sub></p>
+
+---
+
+### Experiment 24: Print Floyd triangle
+
+> 🎯 **AIM:** To display the Floyd triangle.
+
+```c
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    int i, j, k = 1;
+    clrscr();
+
+    for (i = 1; i <= 5; i++)
+    {
+        for (j = 1; j <= i; j++)
+        {
+            printf("%d ", k);
+            k++;
+        }
+        printf("\n");
+    }
+
+    getch();
+}
+```
+
+💡 **Sample Run**
+> **Input:** `(none)`
+> **Output:** `1 / 2 3 / 4 5 6 / 7 8 9 10 / 11 12 13 14 15`
+
+
+<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-24-print-floyd-triangle">⬆ to top of experiment 24</a></sub></p>
+
+---
+
+### Experiment 25: Find the sum of array elements
+
+> 🎯 **AIM:** To find the sum of array elements.
+
+```c
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    int n, i, sum = 0;
+    int arr[100];
+    clrscr();
+
+    printf("Enter the number of elements: ");
+    scanf("%d", &n);
+
+    printf("Enter %d elements:\n", n);
+    for (i = 0; i < n; i++)
+    {
+        scanf("%d", &arr[i]);
+        sum += arr[i];
+    }
+
+    printf("Sum of array elements = %d", sum);
+
+    getch();
+}
+```
+
+💡 **Sample Run**
+> **Input:** `5 -> 1 2 3 4 5`
+> **Output:** `Sum of array elements = 15`
+
+
+<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-25-find-the-sum-of-array-elements">⬆ to top of experiment 25</a></sub></p>
+
+---
+
+### Experiment 26: Find the largest element in an array
+
+> 🎯 **AIM:** To find the largest element in an array.
+
+```c
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    int n, i, largest;
+    int arr[100];
+    clrscr();
+
+    printf("Enter the number of elements: ");
+    scanf("%d", &n);
+
+    printf("Enter %d elements:\n", n);
+    for (i = 0; i < n; i++)
+    {
+        scanf("%d", &arr[i]);
+    }
+
+    largest = arr[0];
+    for (i = 1; i < n; i++)
+    {
+        if (arr[i] > largest)
+        {
+            largest = arr[i];
+        }
+    }
+
+    printf("Largest element = %d", largest);
+
+    getch();
+}
+```
+
+💡 **Sample Run**
+> **Input:** `5 -> 3 9 4 7 1`
+> **Output:** `Largest element = 9`
+
+
+<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-26-find-the-largest-element-in-an-array">⬆ to top of experiment 26</a></sub></p>
+
+---
+
+### Experiment 27: Display a matrix
+
+> 🎯 **AIM:** To display a matrix.
+
+```c
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    int r, c, i, j;
+    int matrix[10][10];
+    clrscr();
+
+    printf("Enter number of rows and columns: ");
+    scanf("%d%d", &r, &c);
+
+    printf("Enter elements of the matrix:\n");
+    for (i = 0; i < r; i++)
+    {
+        for (j = 0; j < c; j++)
+        {
+            scanf("%d", &matrix[i][j]);
+        }
+    }
+
+    printf("The entered matrix is:\n");
+    for (i = 0; i < r; i++)
+    {
+        for (j = 0; j < c; j++)
+        {
+            printf("%d\t", matrix[i][j]);
+        }
+        printf("\n");
+    }
+
+    getch();
+}
+```
+
+💡 **Sample Run**
+> **Input:** `2 3 -> 1 2 3 4 5 6`
+> **Output:** `1 2 3 / 4 5 6`
+
+
+<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-27-display-a-matrix">⬆ to top of experiment 27</a></sub></p>
+
+---
+
+### Experiment 28: Addition of two matrices
+
+> 🎯 **AIM:** To add two matrices.
+
+```c
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    int r, c, i, j;
+    int mat1[10][10], mat2[10][10], sum[10][10];
+    clrscr();
+
+    printf("Enter number of rows and columns: ");
+    scanf("%d%d", &r, &c);
+
+    printf("Enter elements of first matrix:\n");
+    for (i = 0; i < r; i++)
+    {
+        for (j = 0; j < c; j++)
+        {
+            scanf("%d", &mat1[i][j]);
+        }
+    }
+
+    printf("Enter elements of second matrix:\n");
+    for (i = 0; i < r; i++)
+    {
+        for (j = 0; j < c; j++)
+        {
+            scanf("%d", &mat2[i][j]);
+        }
+    }
+
+    for (i = 0; i < r; i++)
+    {
+        for (j = 0; j < c; j++)
+        {
+            sum[i][j] = mat1[i][j] + mat2[i][j];
+        }
+    }
+
+    printf("Sum of the two matrices:\n");
+    for (i = 0; i < r; i++)
+    {
+        for (j = 0; j < c; j++)
+        {
+            printf("%d\t", sum[i][j]);
+        }
+        printf("\n");
+    }
+
+    getch();
+}
+```
+
+💡 **Sample Run**
+> **Input:** `2 2 -> 1 2 3 4 | 5 6 7 8`
+> **Output:** `6 8 / 10 12`
+
+
+<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-28-addition-of-two-matrices">⬆ to top of experiment 28</a></sub></p>
+
+---
+
 <h2 align="center">📄 About</h2>
 
 | | |
 |---|---|
 | 🎓 **Subject** | C Programming Lab |
-| 🧪 **Experiments** | 21 |
+| 🧪 **Experiments** | 28 |
 | 🖊️ **Source** | Handwritten lab record, digitized |
-| 📄 **Full printable PDF** | [C_Lab_Record.pdf](./C_Lab_Record.pdf) — 24 pages, ready to print |
+| 📄 **Full printable PDF** | [C_Lab_Record.pdf](./C_Lab_Record.pdf) — 35 pages, ready to print |
 | 🌐 **Repository** | [akhil-tg/01012008](https://github.com/akhil-tg/01012008) |
 
 <p align="center">
