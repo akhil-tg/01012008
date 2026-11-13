@@ -38,65 +38,36 @@ gcc <filename>.c -o program && ./program
 
 <h2 align="center">📑 Index</h2>
 
-<h3 align="center">🧮 Basics &amp; Formulas</h3>
-
-<p align="center">
-  <a href="#experiment-1-c-program-to-print-the-size-of-different-data-types"><img alt="Experiment 1: C program to print the size of different data types" src="https://img.shields.io/badge/01-C_program_to_print_the_size_of_different_data_types-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
-  <a href="#experiment-2-perimeter-and-area-of-a-triangle"><img alt="Experiment 2: Perimeter and area of a triangle" src="https://img.shields.io/badge/02-Perimeter_and_area_of_a_triangle-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
-  <a href="#experiment-3-area-and-circumference-of-a-circle"><img alt="Experiment 3: Area and circumference of a circle" src="https://img.shields.io/badge/03-Area_and_circumference_of_a_circle-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
-  <a href="#experiment-4-convert-fahrenheit-to-celsius"><img alt="Experiment 4: Convert fahrenheit to celsius" src="https://img.shields.io/badge/04-Convert_fahrenheit_to_celsius-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
-  <a href="#experiment-5-simple-interest"><img alt="Experiment 5: Simple interest" src="https://img.shields.io/badge/05-Simple_interest-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
-</p>
-
-<h3 align="center">🔁 Operators</h3>
-
-<p align="center">
-  <a href="#experiment-6-swap-two-numbers-without-using-a-temporary-variable"><img alt="Experiment 6: Swap two numbers without using a temporary variable" src="https://img.shields.io/badge/06-Swap_two_numbers_without_using_a_temporary_variable-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
-  <a href="#experiment-7-swap-two-numbers-using-a-temporary-variable"><img alt="Experiment 7: Swap two numbers using a temporary variable" src="https://img.shields.io/badge/07-Swap_two_numbers_using_a_temporary_variable-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
-  <a href="#experiment-8-check-a--b-using-the-conditional-operator"><img alt="Experiment 8: Check a > b using the conditional operator" src="https://img.shields.io/badge/08-Check_a_%3E_b_using_the_conditional_operator-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
-  <a href="#experiment-9-arithmetic-and-relational-operations-using-short-name-method"><img alt="Experiment 9: Arithmetic and relational operations using short-name method" src="https://img.shields.io/badge/09-Arithmetic_and_relational_operations_using_short--name_method-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
-  <a href="#experiment-10-evaluate-the-expression-abc"><img alt="Experiment 10: Evaluate the expression (a+b)*c" src="https://img.shields.io/badge/10-Evaluate_the_expression_(a%2Bb)*c-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
-  <a href="#experiment-11-equivalence-of-two-numbers"><img alt="Experiment 11: Equivalence of two numbers" src="https://img.shields.io/badge/11-Equivalence_of_two_numbers-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
-</p>
-
-<h3 align="center">🔀 Conditionals</h3>
-
-<p align="center">
-  <a href="#experiment-12-largest-of-two-numbers"><img alt="Experiment 12: Largest of two numbers" src="https://img.shields.io/badge/12-Largest_of_two_numbers-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
-  <a href="#experiment-13-maximum-of-three-numbers"><img alt="Experiment 13: Maximum of three numbers" src="https://img.shields.io/badge/13-Maximum_of_three_numbers-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
-  <a href="#experiment-14-smallest-of-two-numbers"><img alt="Experiment 14: Smallest of two numbers" src="https://img.shields.io/badge/14-Smallest_of_two_numbers-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
-  <a href="#experiment-15-energy-bill-using-else-if-ladder"><img alt="Experiment 15: Energy bill using else-if ladder" src="https://img.shields.io/badge/15-Energy_bill_using_else--if_ladder-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
-  <a href="#experiment-16-leap-year-or-not"><img alt="Experiment 16: Leap year or not" src="https://img.shields.io/badge/16-Leap_year_or_not-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
-  <a href="#experiment-17-odd-or-even"><img alt="Experiment 17: Odd or even" src="https://img.shields.io/badge/17-Odd_or_even-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
-  <a href="#experiment-18-gross-salary-of-an-employee"><img alt="Experiment 18: Gross salary of an employee" src="https://img.shields.io/badge/18-Gross_salary_of_an_employee-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
-  <a href="#experiment-19-average-of-six-subjects-with-division-classification"><img alt="Experiment 19: Average of six subjects with division classification" src="https://img.shields.io/badge/19-Average_of_six_subjects_with_division_classification-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
-</p>
-
-<h3 align="center">🎛️ Switch &amp; Menus</h3>
-
-<p align="center">
-  <a href="#experiment-20-day-of-a-week-using-switch-case"><img alt="Experiment 20: Day of a week using switch case" src="https://img.shields.io/badge/20-Day_of_a_week_using_switch_case-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
-  <a href="#experiment-21-menu-driven-arithmetic-calculations-using-switch-case"><img alt="Experiment 21: Menu driven arithmetic calculations using switch case" src="https://img.shields.io/badge/21-Menu_driven_arithmetic_calculations_using_switch_case-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
-</p>
-
-<h3 align="center">✨ Loops &amp; Patterns</h3>
-
-<p align="center">
-  <a href="#experiment-22-display-star-pattern"><img alt="Experiment 22: Display star pattern" src="https://img.shields.io/badge/22-Display_star_pattern-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
-  <a href="#experiment-23-display-number-triangle-pattern"><img alt="Experiment 23: Display number triangle pattern" src="https://img.shields.io/badge/23-Display_number_triangle_pattern-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
-  <a href="#experiment-24-print-floyd-triangle"><img alt="Experiment 24: Print Floyd triangle" src="https://img.shields.io/badge/24-Print_Floyd_triangle-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
-</p>
-
-<h3 align="center">📦 Arrays &amp; Matrices</h3>
-
-<p align="center">
-  <a href="#experiment-25-find-the-sum-of-array-elements"><img alt="Experiment 25: Find the sum of array elements" src="https://img.shields.io/badge/25-Find_the_sum_of_array_elements-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
-  <a href="#experiment-26-find-the-largest-element-in-an-array"><img alt="Experiment 26: Find the largest element in an array" src="https://img.shields.io/badge/26-Find_the_largest_element_in_an_array-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
-  <a href="#experiment-27-display-a-matrix"><img alt="Experiment 27: Display a matrix" src="https://img.shields.io/badge/27-Display_a_matrix-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
-  <a href="#experiment-28-addition-of-two-matrices"><img alt="Experiment 28: Addition of two matrices" src="https://img.shields.io/badge/28-Addition_of_two_matrices-4f46e5?style=for-the-badge&labelColor=1e1b4b"/></a>
-</p>
-
----
+<ol>
+<li><a href="#experiment-1-c-program-to-print-the-size-of-different-data-types">Experiment 1: C program to print the size of different data types</a></li>
+<li><a href="#experiment-2-perimeter-and-area-of-a-triangle">Experiment 2: Perimeter and area of a triangle</a></li>
+<li><a href="#experiment-3-area-and-circumference-of-a-circle">Experiment 3: Area and circumference of a circle</a></li>
+<li><a href="#experiment-4-convert-fahrenheit-to-celsius">Experiment 4: Convert Fahrenheit to Celsius</a></li>
+<li><a href="#experiment-5-simple-interest">Experiment 5: Simple interest</a></li>
+<li><a href="#experiment-6-swap-two-numbers-without-using-a-temporary-variable">Experiment 6: Swap two numbers without using a temporary variable</a></li>
+<li><a href="#experiment-7-swap-two-numbers-using-a-temporary-variable">Experiment 7: Swap two numbers using a temporary variable</a></li>
+<li><a href="#experiment-8-check-a--b-using-the-conditional-operator">Experiment 8: Check a > b using the conditional operator</a></li>
+<li><a href="#experiment-9-arithmetic-and-relational-operations-using-short-name-method">Experiment 9: Arithmetic and relational operations using short-name method</a></li>
+<li><a href="#experiment-10-evaluate-the-expression-abc">Experiment 10: Evaluate the expression (a+b)*c</a></li>
+<li><a href="#experiment-11-equivalence-of-two-numbers">Experiment 11: Equivalence of two numbers</a></li>
+<li><a href="#experiment-12-largest-of-two-numbers">Experiment 12: Largest of two numbers</a></li>
+<li><a href="#experiment-13-maximum-of-three-numbers">Experiment 13: Maximum of three numbers</a></li>
+<li><a href="#experiment-14-smallest-of-two-numbers">Experiment 14: Smallest of two numbers</a></li>
+<li><a href="#experiment-15-energy-bill-using-else-if-ladder">Experiment 15: Energy bill using else-if ladder</a></li>
+<li><a href="#experiment-16-leap-year-or-not">Experiment 16: Leap year or not</a></li>
+<li><a href="#experiment-17-odd-or-even">Experiment 17: Odd or even</a></li>
+<li><a href="#experiment-18-gross-salary-of-an-employee">Experiment 18: Gross salary of an employee</a></li>
+<li><a href="#experiment-19-average-of-six-subjects-with-division-classification">Experiment 19: Average of six subjects with division classification</a></li>
+<li><a href="#experiment-20-day-of-a-week-using-switch-case">Experiment 20: Day of a week using switch case</a></li>
+<li><a href="#experiment-21-menu-driven-arithmetic-calculations-using-switch-case">Experiment 21: Menu driven arithmetic calculations using switch case</a></li>
+<li><a href="#experiment-22-display-star-pattern">Experiment 22: Display star pattern</a></li>
+<li><a href="#experiment-23-display-number-triangle-pattern">Experiment 23: Display number triangle pattern</a></li>
+<li><a href="#experiment-24-print-floyd-triangle">Experiment 24: Print Floyd triangle</a></li>
+<li><a href="#experiment-25-find-the-sum-of-array-elements">Experiment 25: Find the sum of array elements</a></li>
+<li><a href="#experiment-26-find-the-largest-element-in-an-array">Experiment 26: Find the largest element in an array</a></li>
+<li><a href="#experiment-27-display-a-matrix">Experiment 27: Display a matrix</a></li>
+<li><a href="#experiment-28-addition-of-two-matrices">Experiment 28: Addition of two matrices</a></li>
+</ol>
 
 ## 🧪 Experiments
 
