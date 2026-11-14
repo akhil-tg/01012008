@@ -56,6 +56,17 @@ gcc <filename>.c -o program && ./program
 
 </details>
 
+> 🧑‍🔬 **Running on modern GCC?** The record is written Turbo-C style (that's how lab records roll 😄). Tiny translation table and you're compiling in seconds:
+>
+> | Turbo C++ (as written) | Modern GCC equivalent |
+> |------------------------|-----------------------|
+> | `#include<conio.h>` | remove it |
+> | `clrscr();` | *(just delete it)* or `system("clear")` |
+> | `getch();` | `getchar();` |
+> | `void main()` | `int main()` … `return 0;` |
+>
+> ✔️ Fun fact: the CI badge up top compiles **all 28 experiments with real GCC** on every push — Turbo-C-isms and all (`gcc -w` is forgiving like a favourite teacher).
+
 ---
 
 <h2 align="center">📑 Index</h2>
@@ -1464,4 +1475,12 @@ void main()
 <p align="center">
   <a href="https://github.com/akhil-tg"><img alt="author" src="https://img.shields.io/badge/Made%20with-%E2%9D%A4%EF%B8%8F%20%26%20C-blue?style=flat-square"/></a>
 </p>
-<p align="center"><i>⭐ If this helped you, feel free to star the repo!</i></p>
+<h2 align="center">🌟 Enjoyed the ride?</h2>
+
+<p align="center">
+  <a href="https://github.com/akhil-tg/01012008/stargazers"><img alt="Star this repo" src="https://img.shields.io/badge/⭐-Star_this_repo-4F46E5?style=for-the-badge"/></a>
+  <a href="https://github.com/akhil-tg/01012008/fork"><img alt="Fork and experiment" src="https://img.shields.io/badge/🍴-Fork_%26_experiment-818CF8?style=for-the-badge"/></a>
+  <a href="https://github.com/akhil-tg/01012008/blob/main/C_Lab_Record.pdf"><img alt="Grab the PDF" src="https://img.shields.io/badge/📄-Grab_the_PDF-EA580C?style=for-the-badge"/></a>
+</p>
+
+<p align="center"><sub>💡 Learned something? Drop a ⭐ so the next C student finds this lab record faster!</sub></p>
