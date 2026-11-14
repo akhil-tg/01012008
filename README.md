@@ -359,8 +359,10 @@ $ gcc 05-simple-interest.c -o prog && ./prog
 ### Experiment 6: Swap two numbers without using a temporary variable
 
 > 🎯 **AIM:** To swap two numbers without using a temporary variable.
+>
+> 😄 *Swap without a spare variable — pure arithmetic acrobatics! 🤸*
 
-<p align="left"><sub>🧠 Concepts: `arithmetic swap` · `no extra variable`</sub></p>
+<p align="left"><sub>🧠 `arithmetic swap` · `no extra variable`</sub></p>
 
 ```c
 #include<stdio.h>
@@ -383,22 +385,28 @@ void main()
 }
 ```
 
-💡 **Sample Run**
+<details>
+<summary>💻 <b>Run it</b> — sample session</summary>
 
-| 📥 Input | 📤 Output |
-|----------|-----------|
-| `10 20` | `After swapping : a = 20, b = 10` |
+```console
+$ gcc 06-swap-two-numbers-without-using-a-temporary-variable.c -o prog && ./prog
+ Enter two numbers : 10 20
+ After swapping : a = 20, b = 10
+```
 
+</details>
 
-<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-6-swap-two-numbers-without-using-a-temporary-variable">⬆ to top of experiment 6</a></sub></p>
+<p align="center"><sub>🗂️ <a href="#-index">⬆ back to index</a> &nbsp;•&nbsp; <a href="#experiment-7-swap-two-numbers-using-a-temporary-variable">next: experiment 7 ➜</a></sub></p>
 
 ---
 
 ### Experiment 7: Swap two numbers using a temporary variable
 
 > 🎯 **AIM:** To swap two numbers using a temporary variable.
+>
+> 😄 *The classic three-step swap — sometimes the temp variable really is your friend. 🤝*
 
-<p align="left"><sub>🧠 Concepts: `temp variable` · `assignment`</sub></p>
+<p align="left"><sub>🧠 `temp variable` · `assignment`</sub></p>
 
 ```c
 #include<stdio.h>
@@ -421,22 +429,28 @@ void main()
 }
 ```
 
-💡 **Sample Run**
+<details>
+<summary>💻 <b>Run it</b> — sample session</summary>
 
-| 📥 Input | 📤 Output |
-|----------|-----------|
-| `10 20` | `After swapping : a = 20, b = 10` |
+```console
+$ gcc 07-swap-two-numbers-using-a-temporary-variable.c -o prog && ./prog
+ Enter two numbers : 10 20
+ After swapping : a = 20, b = 10
+```
 
+</details>
 
-<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-7-swap-two-numbers-using-a-temporary-variable">⬆ to top of experiment 7</a></sub></p>
+<p align="center"><sub>🗂️ <a href="#-index">⬆ back to index</a> &nbsp;•&nbsp; <a href="#experiment-8-check-a--b-using-the-conditional-operator">next: experiment 8 ➜</a></sub></p>
 
 ---
 
 ### Experiment 8: Check a > b using the conditional operator
 
 > 🎯 **AIM:** To input two numbers a and b and check a > b using the conditional operator.
+>
+> 😄 *One line, one verdict — the ternary operator decides. ⚖️*
 
-<p align="left"><sub>🧠 Concepts: `ternary operator` · `conditionals`</sub></p>
+<p align="left"><sub>🧠 `ternary operator` · `conditionals`</sub></p>
 
 ```c
 #include<stdio.h>
@@ -455,22 +469,28 @@ void main()
 }
 ```
 
-💡 **Sample Run**
+<details>
+<summary>💻 <b>Run it</b> — sample session</summary>
 
-| 📥 Input | 📤 Output |
-|----------|-----------|
-| `5 3` | `a is greater` |
+```console
+$ gcc 08-check-a-b-using-the-conditional-operator.c -o prog && ./prog
+ Enter two numbers : 5 3
+a is greater
+```
 
+</details>
 
-<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-8-check-a--b-using-the-conditional-operator">⬆ to top of experiment 8</a></sub></p>
+<p align="center"><sub>🗂️ <a href="#-index">⬆ back to index</a> &nbsp;•&nbsp; <a href="#experiment-9-arithmetic-and-relational-operations-using-short-name-method">next: experiment 9 ➜</a></sub></p>
 
 ---
 
 ### Experiment 9: Arithmetic and relational operations using short-name method
 
 > 🎯 **AIM:** To perform arithmetic and relational operations using the short-hand method.
+>
+> 😄 *`+=`, `-=`, `*=`, `/=` — arithmetic with shortcuts enabled. 🏎️*
 
-<p align="left"><sub>🧠 Concepts: `shorthand operators` · `relational operators`</sub></p>
+<p align="left"><sub>🧠 `shorthand operators` · `relational operators`</sub></p>
 
 ```c
 #include<stdio.h>
@@ -512,22 +532,43 @@ void main()
 }
 ```
 
-💡 **Sample Run**
+<details>
+<summary>💻 <b>Run it</b> — sample session</summary>
 
-| 📥 Input | 📤 Output |
-|----------|-----------|
-| `10 5` | `Addition = 15 \| Subtraction = 5 \| Multiplication = 50 \| Division = 2` |
+```console
+$ gcc 09-arithmetic-and-relational-operations-using-short-name-method.c -o prog && ./prog
+ Enter two values : 10 5
 
+ Arithmetic operations :
+ Addition = 15
+ Subtraction = 5
+ Multiplication = 50
+ Division = 2
 
-<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-9-arithmetic-and-relational-operations-using-short-name-method">⬆ to top of experiment 9</a></sub></p>
+ Relational operators :
+ a>b = 1
+ a<b = 0
+ a==b = 0
+ a!=b = 1
+ a>=b = 1
+ a<=b = 0
+```
+
+<sub>🕵️ In C, `1` means true and `0` means false — booleans wear number costumes here.</sub>
+
+</details>
+
+<p align="center"><sub>🗂️ <a href="#-index">⬆ back to index</a> &nbsp;•&nbsp; <a href="#experiment-10-evaluate-the-expression-abc">next: experiment 10 ➜</a></sub></p>
 
 ---
 
 ### Experiment 10: Evaluate the expression (a+b)*c
 
 > 🎯 **AIM:** To evaluate the expression (a + b) * c.
+>
+> 😄 *Parentheses to the rescue — (a+b) \* c in action. 🎯*
 
-<p align="left"><sub>🧠 Concepts: `operator precedence` · `int input`</sub></p>
+<p align="left"><sub>🧠 `operator precedence` · `int input`</sub></p>
 
 ```c
 #include<stdio.h>
@@ -548,22 +589,28 @@ void main()
 }
 ```
 
-💡 **Sample Run**
+<details>
+<summary>💻 <b>Run it</b> — sample session</summary>
 
-| 📥 Input | 📤 Output |
-|----------|-----------|
-| `2 3 4` | `Result = 20` |
+```console
+$ gcc 10-evaluate-the-expression-a-b-c.c -o prog && ./prog
+ Enter a, b and c : 2 3 4
+ Result = 20
+```
 
+</details>
 
-<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-10-evaluate-the-expression-abc">⬆ to top of experiment 10</a></sub></p>
+<p align="center"><sub>🗂️ <a href="#-index">⬆ back to index</a> &nbsp;•&nbsp; <a href="#experiment-11-equivalence-of-two-numbers">next: experiment 11 ➜</a></sub></p>
 
 ---
 
 ### Experiment 11: Equivalence of two numbers
 
 > 🎯 **AIM:** To check the equivalence of two numbers.
+>
+> 😄 *Three different ways to ask "are you two equal?" 🤔*
 
-<p align="left"><sub>🧠 Concepts: `if-else` · `nested conditions`</sub></p>
+<p align="left"><sub>🧠 `if-else` · `nested conditions`</sub></p>
 
 ```c
 #include<stdio.h>
@@ -600,22 +647,31 @@ void main()
 }
 ```
 
-💡 **Sample Run**
+<details>
+<summary>💻 <b>Run it</b> — sample session</summary>
 
-| 📥 Input | 📤 Output |
-|----------|-----------|
-| `5 5` | `Condition (a==b) is TRUE \| Condition (a-b==0) is TRUE \| Condition (a/b==1) is TRUE` |
+```console
+$ gcc 11-equivalence-of-two-numbers.c -o prog && ./prog
+ Enter two integers a and b : 5 5
 
+ 1. Condition (a==b) is TRUE
+ 2. Condition (a-b==0) is TRUE
+ 3. Condition (a/b==1) is TRUE
+```
 
-<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-11-equivalence-of-two-numbers">⬆ to top of experiment 11</a></sub></p>
+</details>
+
+<p align="center"><sub>🗂️ <a href="#-index">⬆ back to index</a> &nbsp;•&nbsp; <a href="#experiment-12-largest-of-two-numbers">next: experiment 12 ➜</a></sub></p>
 
 ---
 
 ### Experiment 12: Largest of two numbers
 
 > 🎯 **AIM:** To find the largest of two numbers.
+>
+> 😄 *Two numbers walk in, the larger one walks out. 🚪*
 
-<p align="left"><sub>🧠 Concepts: `if-else` · `comparison`</sub></p>
+<p align="left"><sub>🧠 `if-else` · `comparison`</sub></p>
 
 ```c
 #include<stdio.h>
@@ -637,22 +693,28 @@ void main()
 }
 ```
 
-💡 **Sample Run**
+<details>
+<summary>💻 <b>Run it</b> — sample session</summary>
 
-| 📥 Input | 📤 Output |
-|----------|-----------|
-| `7 3` | `a is larger` |
+```console
+$ gcc 12-largest-of-two-numbers.c -o prog && ./prog
+ Enter two numbers : 7 3
+ a is larger
+```
 
+</details>
 
-<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-12-largest-of-two-numbers">⬆ to top of experiment 12</a></sub></p>
+<p align="center"><sub>🗂️ <a href="#-index">⬆ back to index</a> &nbsp;•&nbsp; <a href="#experiment-13-maximum-of-three-numbers">next: experiment 13 ➜</a></sub></p>
 
 ---
 
 ### Experiment 13: Maximum of three numbers
 
 > 🎯 **AIM:** To find the maximum of three numbers.
+>
+> 😄 *A three-way showdown, settled with `&&` logic. 🥇*
 
-<p align="left"><sub>🧠 Concepts: `logical AND` · `else-if ladder`</sub></p>
+<p align="left"><sub>🧠 `logical AND` · `else-if ladder`</sub></p>
 
 ```c
 #include<stdio.h>
@@ -676,22 +738,28 @@ void main()
 }
 ```
 
-💡 **Sample Run**
+<details>
+<summary>💻 <b>Run it</b> — sample session</summary>
 
-| 📥 Input | 📤 Output |
-|----------|-----------|
-| `3 9 5` | `B is largest` |
+```console
+$ gcc 13-maximum-of-three-numbers.c -o prog && ./prog
+ Enter three numbers : 3 9 5
+ B is largest
+```
 
+</details>
 
-<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-13-maximum-of-three-numbers">⬆ to top of experiment 13</a></sub></p>
+<p align="center"><sub>🗂️ <a href="#-index">⬆ back to index</a> &nbsp;•&nbsp; <a href="#experiment-14-smallest-of-two-numbers">next: experiment 14 ➜</a></sub></p>
 
 ---
 
 ### Experiment 14: Smallest of two numbers
 
 > 🎯 **AIM:** To find the smallest of two numbers.
+>
+> 😄 *Same comparison ring, smallest key wins. 🔑*
 
-<p align="left"><sub>🧠 Concepts: `if-else` · `comparison`</sub></p>
+<p align="left"><sub>🧠 `if-else` · `comparison`</sub></p>
 
 ```c
 #include<stdio.h>
@@ -717,22 +785,28 @@ void main()
 }
 ```
 
-💡 **Sample Run**
+<details>
+<summary>💻 <b>Run it</b> — sample session</summary>
 
-| 📥 Input | 📤 Output |
-|----------|-----------|
-| `4 8` | `a is smaller` |
+```console
+$ gcc 14-smallest-of-two-numbers.c -o prog && ./prog
+ Enter two numbers : 4 8
+ a is smaller
+```
 
+</details>
 
-<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-14-smallest-of-two-numbers">⬆ to top of experiment 14</a></sub></p>
+<p align="center"><sub>🗂️ <a href="#-index">⬆ back to index</a> &nbsp;•&nbsp; <a href="#experiment-15-energy-bill-using-else-if-ladder">next: experiment 15 ➜</a></sub></p>
 
 ---
 
 ### Experiment 15: Energy bill using else-if ladder
 
 > 🎯 **AIM:** To calculate the energy bill by reading the starting and ending meter readings using an else-if ladder.
+>
+> 😄 *Meter readings in, electricity bill out — no billing surprises for once! 💡*
 
-<p align="left"><sub>🧠 Concepts: `else-if ladder` · `bill calculation`</sub></p>
+<p align="left"><sub>🧠 `else-if ladder` · `bill calculation`</sub></p>
 
 ```c
 #include<stdio.h>
@@ -769,22 +843,31 @@ void main()
 }
 ```
 
-💡 **Sample Run**
+<details>
+<summary>💻 <b>Run it</b> — sample session</summary>
 
-| 📥 Input | 📤 Output |
-|----------|-----------|
-| `1000 -> 1250` | `Units consumed = 250.000000 \| Energy bill = Rs 625.000000` |
+```console
+$ gcc 15-energy-bill-using-else-if-ladder.c -o prog && ./prog
+ Enter starting meter reading : 1000
+ Enter ending meter reading : 1250
 
+ Units consumed = 250.000000
+ Energy bill = Rs 625.000000
+```
 
-<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-15-energy-bill-using-else-if-ladder">⬆ to top of experiment 15</a></sub></p>
+</details>
+
+<p align="center"><sub>🗂️ <a href="#-index">⬆ back to index</a> &nbsp;•&nbsp; <a href="#experiment-16-leap-year-or-not">next: experiment 16 ➜</a></sub></p>
 
 ---
 
 ### Experiment 16: Leap year or not
 
 > 🎯 **AIM:** To check whether a year is a leap year or not.
+>
+> 😄 *Is 2024 extra-special? Modulo 4 knows. 🗓️*
 
-<p align="left"><sub>🧠 Concepts: `modulo` · `if-else`</sub></p>
+<p align="left"><sub>🧠 `modulo` · `if-else`</sub></p>
 
 ```c
 #include<stdio.h>
@@ -810,22 +893,30 @@ void main()
 }
 ```
 
-💡 **Sample Run**
+<details>
+<summary>💻 <b>Run it</b> — sample session</summary>
 
-| 📥 Input | 📤 Output |
-|----------|-----------|
-| `2024` | `Leap year` |
+```console
+$ gcc 16-leap-year-or-not.c -o prog && ./prog
+ Enter a year : 2024
+ Leap year
+```
 
+<sub>🤓 Psst — the full Gregorian rule also checks `% 100` and `% 400`; the record keeps it classroom-simple.</sub>
 
-<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-16-leap-year-or-not">⬆ to top of experiment 16</a></sub></p>
+</details>
+
+<p align="center"><sub>🗂️ <a href="#-index">⬆ back to index</a> &nbsp;•&nbsp; <a href="#experiment-17-odd-or-even">next: experiment 17 ➜</a></sub></p>
 
 ---
 
 ### Experiment 17: Odd or even
 
 > 🎯 **AIM:** To check whether a number is odd or even.
+>
+> 😄 *Modulo 2 — the oldest odd/even trick in the book. 🎲*
 
-<p align="left"><sub>🧠 Concepts: `modulo` · `if-else`</sub></p>
+<p align="left"><sub>🧠 `modulo` · `if-else`</sub></p>
 
 ```c
 #include<stdio.h>
@@ -851,14 +942,18 @@ void main()
 }
 ```
 
-💡 **Sample Run**
+<details>
+<summary>💻 <b>Run it</b> — sample session</summary>
 
-| 📥 Input | 📤 Output |
-|----------|-----------|
-| `7` | `a is odd` |
+```console
+$ gcc 17-odd-or-even.c -o prog && ./prog
+ Enter the number : 7
+ a is odd
+```
 
+</details>
 
-<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-17-odd-or-even">⬆ to top of experiment 17</a></sub></p>
+<p align="center"><sub>🗂️ <a href="#-index">⬆ back to index</a> &nbsp;•&nbsp; <a href="#experiment-18-gross-salary-of-an-employee">next: experiment 18 ➜</a></sub></p>
 
 ---
 
