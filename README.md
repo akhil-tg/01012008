@@ -960,8 +960,10 @@ $ gcc 17-odd-or-even.c -o prog && ./prog
 ### Experiment 18: Gross salary of an employee
 
 > 🎯 **AIM:** To calculate the gross salary of an employee.
+>
+> 😄 *Basic + DA + HRA + conveyance — payday maths! 💵*
 
-<p align="left"><sub>🧠 Concepts: `else-if ladder` · `salary formula`</sub></p>
+<p align="left"><sub>🧠 `else-if ladder` · `salary formula`</sub></p>
 
 <details><summary>📋 <b>Conditions</b></summary>
 
@@ -1015,22 +1017,28 @@ void main()
 }
 ```
 
-💡 **Sample Run**
+<details>
+<summary>💻 <b>Run it</b> — sample session</summary>
 
-| 📥 Input | 📤 Output |
-|----------|-----------|
-| `6000` | `Gross salary = 14300.00` |
+```console
+$ gcc 18-gross-salary-of-an-employee.c -o prog && ./prog
+ Enter basic salary : 6000
+ Gross salary = 14300.00
+```
 
+</details>
 
-<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-18-gross-salary-of-an-employee">⬆ to top of experiment 18</a></sub></p>
+<p align="center"><sub>🗂️ <a href="#-index">⬆ back to index</a> &nbsp;•&nbsp; <a href="#experiment-19-average-of-six-subjects-with-division-classification">next: experiment 19 ➜</a></sub></p>
 
 ---
 
 ### Experiment 19: Average of six subjects with division classification
 
 > 🎯 **AIM:** To find the average of marks in six subjects and the result.
+>
+> 😄 *Six subjects, one average, and a division verdict. 🎓*
 
-<p align="left"><sub>🧠 Concepts: `do-while loop` · `1D arrays`</sub></p>
+<p align="left"><sub>🧠 `do-while loop` · `1D arrays`</sub></p>
 
 <details><summary>📋 <b>Conditions</b></summary>
 
@@ -1102,22 +1110,38 @@ void main()
 }
 ```
 
-💡 **Sample Run**
+<details>
+<summary>💻 <b>Run it</b> — sample session</summary>
 
-| 📥 Input | 📤 Output |
-|----------|-----------|
-| `80,85,90,95,88,75` | `Average mark : 85.50 \| Result : Distinction` |
+```console
+$ gcc 19-average-of-six-subjects-with-division-classification.c -o prog && ./prog
+ Enter the marks for 6 subjects :
+ Subject 1 : 80
+ Subject 2 : 85
+ Subject 3 : 90
+ Subject 4 : 95
+ Subject 5 : 88
+ Subject 6 : 75
 
+ ... AVERAGE RESULT ...
 
-<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-19-average-of-six-subjects-with-division-classification">⬆ to top of experiment 19</a></sub></p>
+ Average mark : 85.50
+ Result : Distinction
+```
+
+</details>
+
+<p align="center"><sub>🗂️ <a href="#-index">⬆ back to index</a> &nbsp;•&nbsp; <a href="#experiment-20-day-of-a-week-using-switch-case">next: experiment 20 ➜</a></sub></p>
 
 ---
 
 ### Experiment 20: Day of a week using switch case
 
 > 🎯 **AIM:** To print the day of a week using switch case.
+>
+> 😄 *Pick a number, get a day — switch-case at work. 📆*
 
-<p align="left"><sub>🧠 Concepts: `switch-case` · `break`</sub></p>
+<p align="left"><sub>🧠 `switch-case` · `break`</sub></p>
 
 ```c
 #include<stdio.h>
@@ -1170,22 +1194,37 @@ void main()
 }
 ```
 
-💡 **Sample Run**
+<details>
+<summary>💻 <b>Run it</b> — sample session</summary>
 
-| 📥 Input | 📤 Output |
-|----------|-----------|
-| `3` | `Tuesday` |
+```console
+$ gcc 20-day-of-a-week-using-switch-case.c -o prog && ./prog
+ Menu
+ * * * * .....
+ 1. Sunday
+ 2. Monday
+ 3. Tuesday
+ 4. Wednesday
+ 5. Thursday
+ 6. Friday
+ 7. Saturday
+ Enter your choice : 3
+ Tuesday
+```
 
+</details>
 
-<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-20-day-of-a-week-using-switch-case">⬆ to top of experiment 20</a></sub></p>
+<p align="center"><sub>🗂️ <a href="#-index">⬆ back to index</a> &nbsp;•&nbsp; <a href="#experiment-21-menu-driven-arithmetic-calculations-using-switch-case">next: experiment 21 ➜</a></sub></p>
 
 ---
 
 ### Experiment 21: Menu driven arithmetic calculations using switch case
 
 > 🎯 **AIM:** To write a menu driven program to perform arithmetic calculations using switch case.
+>
+> 😄 *A restaurant menu, but for numbers — order addition, get addition. 🧾*
 
-<p align="left"><sub>🧠 Concepts: `switch-case` · `menu-driven`</sub></p>
+<p align="left"><sub>🧠 `switch-case` · `menu-driven`</sub></p>
 
 ```c
 #include<stdio.h>
@@ -1259,22 +1298,38 @@ void main()
 }
 ```
 
-💡 **Sample Run**
+<details>
+<summary>💻 <b>Run it</b> — sample session</summary>
 
-| 📥 Input | 📤 Output |
-|----------|-----------|
-| `1 -> 10 5` | `Addition = 15.00` |
+```console
+$ gcc 21-menu-driven-arithmetic-calculations-using-switch-case.c -o prog && ./prog
+ Menu
+ * * * ..... *
+ 1. Addition
+ 2. Subtraction
+ 3. Multiplication
+ 4. Division
+ 5. Remainder
+ 6. Largest of two numbers
+ 7. Exit
+ Enter your choice : 1
+ Enter two numbers : 10 5
+ Addition = 15.00
+```
 
+</details>
 
-<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-21-menu-driven-arithmetic-calculations-using-switch-case">⬆ to top of experiment 21</a></sub></p>
+<p align="center"><sub>🗂️ <a href="#-index">⬆ back to index</a> &nbsp;•&nbsp; <a href="#experiment-22-display-star-pattern">next: experiment 22 ➜</a></sub></p>
 
 ---
 
 ### Experiment 22: Display star pattern
 
 > 🎯 **AIM:** To display the star pattern.
+>
+> 😄 *Five loops deep, stars all the way down. ⭐*
 
-<p align="left"><sub>🧠 Concepts: `nested for loops` · `patterns`</sub></p>
+<p align="left"><sub>🧠 `nested for loops` · `patterns`</sub></p>
 
 ```c
 #include<stdio.h>
@@ -1297,22 +1352,31 @@ void main()
 }
 ```
 
-💡 **Sample Run**
+<details>
+<summary>💻 <b>Run it</b> — sample session</summary>
 
-| 📥 Input | 📤 Output |
-|----------|-----------|
-| `(none)` | `*<br>**<br>***<br>****<br>*****` |
+```console
+$ gcc 22-display-star-pattern.c -o prog && ./prog
+*
+**
+***
+****
+*****
+```
 
+</details>
 
-<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-22-display-star-pattern">⬆ to top of experiment 22</a></sub></p>
+<p align="center"><sub>🗂️ <a href="#-index">⬆ back to index</a> &nbsp;•&nbsp; <a href="#experiment-23-display-number-triangle-pattern">next: experiment 23 ➜</a></sub></p>
 
 ---
 
 ### Experiment 23: Display number triangle pattern
 
 > 🎯 **AIM:** To display the number triangle pattern.
+>
+> 😄 *1, 12, 123 — a counting stairway to five. 🪜*
 
-<p align="left"><sub>🧠 Concepts: `nested for loops` · `patterns`</sub></p>
+<p align="left"><sub>🧠 `nested for loops` · `patterns`</sub></p>
 
 ```c
 #include<stdio.h>
@@ -1335,22 +1399,31 @@ void main()
 }
 ```
 
-💡 **Sample Run**
+<details>
+<summary>💻 <b>Run it</b> — sample session</summary>
 
-| 📥 Input | 📤 Output |
-|----------|-----------|
-| `(none)` | `1<br>12<br>123<br>1234<br>12345` |
+```console
+$ gcc 23-number-triangle-pattern.c -o prog && ./prog
+1
+12
+123
+1234
+12345
+```
 
+</details>
 
-<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-23-display-number-triangle-pattern">⬆ to top of experiment 23</a></sub></p>
+<p align="center"><sub>🗂️ <a href="#-index">⬆ back to index</a> &nbsp;•&nbsp; <a href="#experiment-24-print-floyd-triangle">next: experiment 24 ➜</a></sub></p>
 
 ---
 
 ### Experiment 24: Print Floyd triangle
 
 > 🎯 **AIM:** To display the Floyd triangle.
+>
+> 😄 *Every row fills up with the next number — Floyd's classic. 🔢*
 
-<p align="left"><sub>🧠 Concepts: `nested for loops` · `counter variable`</sub></p>
+<p align="left"><sub>🧠 `nested for loops` · `counter variable`</sub></p>
 
 ```c
 #include<stdio.h>
@@ -1374,22 +1447,31 @@ void main()
 }
 ```
 
-💡 **Sample Run**
+<details>
+<summary>💻 <b>Run it</b> — sample session</summary>
 
-| 📥 Input | 📤 Output |
-|----------|-----------|
-| `(none)` | `1<br>2 3<br>4 5 6<br>7 8 9 10<br>11 12 13 14 15` |
+```console
+$ gcc 24-floyd-triangle.c -o prog && ./prog
+1
+2 3
+4 5 6
+7 8 9 10
+11 12 13 14 15
+```
 
+</details>
 
-<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-24-print-floyd-triangle">⬆ to top of experiment 24</a></sub></p>
+<p align="center"><sub>🗂️ <a href="#-index">⬆ back to index</a> &nbsp;•&nbsp; <a href="#experiment-25-find-the-sum-of-array-elements">next: experiment 25 ➜</a></sub></p>
 
 ---
 
 ### Experiment 25: Find the sum of array elements
 
 > 🎯 **AIM:** To find the sum of array elements.
+>
+> 😄 *Loop, add, repeat — array summing 101. ➕*
 
-<p align="left"><sub>🧠 Concepts: `1D arrays` · `for loop`</sub></p>
+<p align="left"><sub>🧠 `1D arrays` · `for loop`</sub></p>
 
 ```c
 #include<stdio.h>
@@ -1416,22 +1498,31 @@ void main()
 }
 ```
 
-💡 **Sample Run**
+<details>
+<summary>💻 <b>Run it</b> — sample session</summary>
 
-| 📥 Input | 📤 Output |
-|----------|-----------|
-| `5 -> 1 2 3 4 5` | `Sum of array elements = 15` |
+```console
+$ gcc 25-sum-of-array-elements.c -o prog && ./prog
+Enter the number of elements: 5
 
+Enter 5 elements:
+1 2 3 4 5
+Sum of array elements = 15
+```
 
-<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-25-find-the-sum-of-array-elements">⬆ to top of experiment 25</a></sub></p>
+</details>
+
+<p align="center"><sub>🗂️ <a href="#-index">⬆ back to index</a> &nbsp;•&nbsp; <a href="#experiment-26-find-the-largest-element-in-an-array">next: experiment 26 ➜</a></sub></p>
 
 ---
 
 ### Experiment 26: Find the largest element in an array
 
 > 🎯 **AIM:** To find the largest element in an array.
+>
+> 😄 *One pass, one champion — may the biggest element win. 🏆*
 
-<p align="left"><sub>🧠 Concepts: `1D arrays` · `comparison`</sub></p>
+<p align="left"><sub>🧠 `1D arrays` · `comparison`</sub></p>
 
 ```c
 #include<stdio.h>
@@ -1466,22 +1557,31 @@ void main()
 }
 ```
 
-💡 **Sample Run**
+<details>
+<summary>💻 <b>Run it</b> — sample session</summary>
 
-| 📥 Input | 📤 Output |
-|----------|-----------|
-| `5 -> 3 9 4 7 1` | `Largest element = 9` |
+```console
+$ gcc 26-largest-element-in-an-array.c -o prog && ./prog
+Enter the number of elements: 5
 
+Enter 5 elements:
+3 9 4 7 1
+Largest element = 9
+```
 
-<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-26-find-the-largest-element-in-an-array">⬆ to top of experiment 26</a></sub></p>
+</details>
+
+<p align="center"><sub>🗂️ <a href="#-index">⬆ back to index</a> &nbsp;•&nbsp; <a href="#experiment-27-display-a-matrix">next: experiment 27 ➜</a></sub></p>
 
 ---
 
 ### Experiment 27: Display a matrix
 
 > 🎯 **AIM:** To display a matrix.
+>
+> 😄 *Rows × columns — matrices on display. 🖥️*
 
-<p align="left"><sub>🧠 Concepts: `2D arrays` · `nested loops`</sub></p>
+<p align="left"><sub>🧠 `2D arrays` · `nested loops`</sub></p>
 
 ```c
 #include<stdio.h>
@@ -1518,22 +1618,34 @@ void main()
 }
 ```
 
-💡 **Sample Run**
+<details>
+<summary>💻 <b>Run it</b> — sample session</summary>
 
-| 📥 Input | 📤 Output |
-|----------|-----------|
-| `2 3 -> 1 2 3 4 5 6` | `1 2 3<br>4 5 6` |
+```console
+$ gcc 27-display-matrix.c -o prog && ./prog
+Enter number of rows and columns: 2 3
 
+Enter elements of the matrix:
+1 2 3 4 5 6
 
-<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-27-display-a-matrix">⬆ to top of experiment 27</a></sub></p>
+The entered matrix is:
+1	2	3
+4	5	6
+```
+
+</details>
+
+<p align="center"><sub>🗂️ <a href="#-index">⬆ back to index</a> &nbsp;•&nbsp; <a href="#experiment-28-addition-of-two-matrices">next: experiment 28 ➜</a></sub></p>
 
 ---
 
 ### Experiment 28: Addition of two matrices
 
 > 🎯 **AIM:** To add two matrices.
+>
+> 😄 *Two matrices walk in, one sum walks out. ➕➕*
 
-<p align="left"><sub>🧠 Concepts: `2D arrays` · `matrix addition`</sub></p>
+<p align="left"><sub>🧠 `2D arrays` · `matrix addition`</sub></p>
 
 ```c
 #include<stdio.h>
@@ -1587,14 +1699,27 @@ void main()
 }
 ```
 
-💡 **Sample Run**
+<details>
+<summary>💻 <b>Run it</b> — sample session</summary>
 
-| 📥 Input | 📤 Output |
-|----------|-----------|
-| `2 2 -> 1 2 3 4 \| 5 6 7 8` | `6 8<br>10 12` |
+```console
+$ gcc 28-addition-of-two-matrices.c -o prog && ./prog
+Enter number of rows and columns: 2 2
 
+Enter elements of first matrix:
+1 2 3 4
 
-<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-28-addition-of-two-matrices">⬆ to top of experiment 28</a></sub></p>
+Enter elements of second matrix:
+5 6 7 8
+
+Sum of the two matrices:
+6	8
+10	12
+```
+
+</details>
+
+<p align="center"><sub>🗂️ <a href="#-index">⬆ back to index</a> &nbsp;🎉 <b>That's all 28 — you finished the record!</b></sub></p>
 
 ---
 
