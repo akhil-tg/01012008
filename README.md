@@ -17,6 +17,28 @@
 
 <p align="center">✨ Every program below has a <b>1-click copy button</b> on GitHub — hover over a code block and press 📋</p>
 
+<p align="center">
+  <a href="https://github.com/akhil-tg/01012008/actions/workflows/run.yml"><img alt="28/28 compile clean" src="https://img.shields.io/badge/28%2F28-compile%20clean-22C55E?style=for-the-badge&logo=githubactions&logoColor=white"/></a>
+  <img alt="37 core concepts" src="https://img.shields.io/badge/37-core%20concepts-4F46E5?style=for-the-badge&logo=c&logoColor=white"/>
+  <img alt="zero setup" src="https://img.shields.io/badge/0-setup%20headaches-EA580C?style=for-the-badge&logo=fire&logoColor=white"/>
+</p>
+
+---
+
+## 🎓 What you'll learn
+
+<p align="center"><sub>🍿 28 tiny programs, one giant leap for your C skills — here's the treasure map:</sub></p>
+
+| 🧠 Skill you'll unlock | 🧪 Where you learn it |
+|------------------------|----------------------|
+| **Talking to the machine** — data types, `sizeof`, input/output | Experiments 1, 10 |
+| **Math whispering** — formulas, `math.h`, Heron's theorem, π | Experiments 2, 3, 4, 5 |
+| **Value juggling** — swaps with & without a temp, shorthand ops | Experiments 6, 7, 9 |
+| **Decision making** — `if-else`, ternary, else-if ladders | Experiments 8, 11–19 |
+| **Menu magic** — `switch-case`, `break`, menu-driven programs | Experiments 20, 21 |
+| **Loop arts & crafts** — nested loops, stars, triangles, Floyd | Experiments 19, 22–24 |
+| **Data wrangling** — 1D arrays, 2D matrices, matrix addition | Experiments 25–28 |
+
 ---
 
 ## 🚀 Quick Start — compile & run any program
