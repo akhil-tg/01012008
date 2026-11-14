@@ -38,36 +38,65 @@ gcc <filename>.c -o program && ./program
 
 <h2 align="center">📑 Index</h2>
 
-<ol>
-<li><a href="#experiment-1-c-program-to-print-the-size-of-different-data-types">Experiment 1: C program to print the size of different data types</a></li>
-<li><a href="#experiment-2-perimeter-and-area-of-a-triangle">Experiment 2: Perimeter and area of a triangle</a></li>
-<li><a href="#experiment-3-area-and-circumference-of-a-circle">Experiment 3: Area and circumference of a circle</a></li>
-<li><a href="#experiment-4-convert-fahrenheit-to-celsius">Experiment 4: Convert Fahrenheit to Celsius</a></li>
-<li><a href="#experiment-5-simple-interest">Experiment 5: Simple interest</a></li>
-<li><a href="#experiment-6-swap-two-numbers-without-using-a-temporary-variable">Experiment 6: Swap two numbers without using a temporary variable</a></li>
-<li><a href="#experiment-7-swap-two-numbers-using-a-temporary-variable">Experiment 7: Swap two numbers using a temporary variable</a></li>
-<li><a href="#experiment-8-check-a--b-using-the-conditional-operator">Experiment 8: Check a > b using the conditional operator</a></li>
-<li><a href="#experiment-9-arithmetic-and-relational-operations-using-short-name-method">Experiment 9: Arithmetic and relational operations using short-name method</a></li>
-<li><a href="#experiment-10-evaluate-the-expression-abc">Experiment 10: Evaluate the expression (a+b)*c</a></li>
-<li><a href="#experiment-11-equivalence-of-two-numbers">Experiment 11: Equivalence of two numbers</a></li>
-<li><a href="#experiment-12-largest-of-two-numbers">Experiment 12: Largest of two numbers</a></li>
-<li><a href="#experiment-13-maximum-of-three-numbers">Experiment 13: Maximum of three numbers</a></li>
-<li><a href="#experiment-14-smallest-of-two-numbers">Experiment 14: Smallest of two numbers</a></li>
-<li><a href="#experiment-15-energy-bill-using-else-if-ladder">Experiment 15: Energy bill using else-if ladder</a></li>
-<li><a href="#experiment-16-leap-year-or-not">Experiment 16: Leap year or not</a></li>
-<li><a href="#experiment-17-odd-or-even">Experiment 17: Odd or even</a></li>
-<li><a href="#experiment-18-gross-salary-of-an-employee">Experiment 18: Gross salary of an employee</a></li>
-<li><a href="#experiment-19-average-of-six-subjects-with-division-classification">Experiment 19: Average of six subjects with division classification</a></li>
-<li><a href="#experiment-20-day-of-a-week-using-switch-case">Experiment 20: Day of a week using switch case</a></li>
-<li><a href="#experiment-21-menu-driven-arithmetic-calculations-using-switch-case">Experiment 21: Menu driven arithmetic calculations using switch case</a></li>
-<li><a href="#experiment-22-display-star-pattern">Experiment 22: Display star pattern</a></li>
-<li><a href="#experiment-23-display-number-triangle-pattern">Experiment 23: Display number triangle pattern</a></li>
-<li><a href="#experiment-24-print-floyd-triangle">Experiment 24: Print Floyd triangle</a></li>
-<li><a href="#experiment-25-find-the-sum-of-array-elements">Experiment 25: Find the sum of array elements</a></li>
-<li><a href="#experiment-26-find-the-largest-element-in-an-array">Experiment 26: Find the largest element in an array</a></li>
-<li><a href="#experiment-27-display-a-matrix">Experiment 27: Display a matrix</a></li>
-<li><a href="#experiment-28-addition-of-two-matrices">Experiment 28: Addition of two matrices</a></li>
-</ol>
+<p align="center"><sub>🗺️ 28 adventures, 6 flavours — pick a topic and jump straight in. Every program has a <b>1-click copy button</b> on GitHub (hover a code block → press 📋)!</sub></p>
+
+#### 🔵 Basics & Formulas
+
+| # | Experiment | Concepts |
+|:-:|------------|----------|
+| 1 | [C program to print the size of different data types](#experiment-1-c-program-to-print-the-size-of-different-data-types) | `data types` · `sizeof` |
+| 2 | [Perimeter and area of a triangle](#experiment-2-perimeter-and-area-of-a-triangle) | `math.h` · `Heron's formula` |
+| 3 | [Area and circumference of a circle](#experiment-3-area-and-circumference-of-a-circle) | `float` · `π constant` |
+| 4 | [Convert Fahrenheit to Celsius](#experiment-4-convert-fahrenheit-to-celsius) | `float` · `temperature formula` |
+| 5 | [Simple interest](#experiment-5-simple-interest) | `float` · `arithmetic formula` |
+
+#### 🟣 Operators & Swaps
+
+| # | Experiment | Concepts |
+|:-:|------------|----------|
+| 6 | [Swap two numbers without using a temporary variable](#experiment-6-swap-two-numbers-without-using-a-temporary-variable) | `arithmetic swap` · `no extra variable` |
+| 7 | [Swap two numbers using a temporary variable](#experiment-7-swap-two-numbers-using-a-temporary-variable) | `temp variable` · `assignment` |
+| 8 | [Check a > b using the conditional operator](#experiment-8-check-a--b-using-the-conditional-operator) | `ternary operator` · `conditionals` |
+| 9 | [Arithmetic and relational operations using short-name method](#experiment-9-arithmetic-and-relational-operations-using-short-name-method) | `shorthand operators` · `relational operators` |
+| 10 | [Evaluate the expression (a+b)*c](#experiment-10-evaluate-the-expression-abc) | `operator precedence` · `int input` |
+| 11 | [Equivalence of two numbers](#experiment-11-equivalence-of-two-numbers) | `if-else` · `nested conditions` |
+
+#### 🟠 Conditionals
+
+| # | Experiment | Concepts |
+|:-:|------------|----------|
+| 12 | [Largest of two numbers](#experiment-12-largest-of-two-numbers) | `if-else` · `comparison` |
+| 13 | [Maximum of three numbers](#experiment-13-maximum-of-three-numbers) | `logical AND` · `else-if ladder` |
+| 14 | [Smallest of two numbers](#experiment-14-smallest-of-two-numbers) | `if-else` · `comparison` |
+| 15 | [Energy bill using else-if ladder](#experiment-15-energy-bill-using-else-if-ladder) | `else-if ladder` · `bill calculation` |
+| 16 | [Leap year or not](#experiment-16-leap-year-or-not) | `modulo` · `if-else` |
+| 17 | [Odd or even](#experiment-17-odd-or-even) | `modulo` · `if-else` |
+| 18 | [Gross salary of an employee](#experiment-18-gross-salary-of-an-employee) | `else-if ladder` · `salary formula` |
+| 19 | [Average of six subjects with division classification](#experiment-19-average-of-six-subjects-with-division-classification) | `do-while loop` · `1D arrays` |
+
+#### 🟡 Switch & Menus
+
+| # | Experiment | Concepts |
+|:-:|------------|----------|
+| 20 | [Day of a week using switch case](#experiment-20-day-of-a-week-using-switch-case) | `switch-case` · `break` |
+| 21 | [Menu driven arithmetic calculations using switch case](#experiment-21-menu-driven-arithmetic-calculations-using-switch-case) | `switch-case` · `menu-driven` |
+
+#### 🟢 Loops & Patterns
+
+| # | Experiment | Concepts |
+|:-:|------------|----------|
+| 22 | [Display star pattern](#experiment-22-display-star-pattern) | `nested for loops` · `patterns` |
+| 23 | [Display number triangle pattern](#experiment-23-display-number-triangle-pattern) | `nested for loops` · `patterns` |
+| 24 | [Print Floyd triangle](#experiment-24-print-floyd-triangle) | `nested for loops` · `counter variable` |
+
+#### 🔴 Arrays & Matrices
+
+| # | Experiment | Concepts |
+|:-:|------------|----------|
+| 25 | [Find the sum of array elements](#experiment-25-find-the-sum-of-array-elements) | `1D arrays` · `for loop` |
+| 26 | [Find the largest element in an array](#experiment-26-find-the-largest-element-in-an-array) | `1D arrays` · `comparison` |
+| 27 | [Display a matrix](#experiment-27-display-a-matrix) | `2D arrays` · `nested loops` |
+| 28 | [Addition of two matrices](#experiment-28-addition-of-two-matrices) | `2D arrays` · `matrix addition` |
 
 ## 🧪 Experiments
 
