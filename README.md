@@ -136,8 +136,10 @@ gcc <filename>.c -o program && ./program
 ### Experiment 1: C program to print the size of different data types
 
 > 🎯 **AIM:** To write a C program to print the size of different data types.
+>
+> 😄 *Size matters — so let's just ask the compiler! 📏*
 
-<p align="left"><sub>🧠 Concepts: `data types` · `sizeof`</sub></p>
+<p align="left"><sub>🧠 `data types` · `sizeof`</sub></p>
 
 ```c
 #include<stdio.h>
@@ -154,22 +156,35 @@ void main()
 }
 ```
 
-💡 **Sample Run**
+<details>
+<summary>💻 <b>Run it</b> — sample session</summary>
 
-| 📥 Input | 📤 Output |
-|----------|-----------|
-| `(none)` | `Size of int = 4 bytes \| Size of char = 1 byte \| Size of float = 4 bytes \| Size of double = 8 bytes` |
+```console
+$ gcc 01-c-program-to-print-the-size-of-different-data-types.c -o prog && ./prog
 
+ SIZE OF DATA TYPES :
 
-<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-1-c-program-to-print-the-size-of-different-data-types">⬆ to top of experiment 1</a></sub></p>
+ Size of int = 4 bytes
+ Size of char = 1 bytes
+ Size of float = 4 bytes
+ Size of double = 8 bytes
+```
+
+<sub>🧾 The original prints `1 bytes` for char — pure Turbo-C-era charm 😄 On Turbo C++ itself, `int` is 2 bytes!</sub>
+
+</details>
+
+<p align="center"><sub>🗂️ <a href="#-index">⬆ back to index</a> &nbsp;•&nbsp; <a href="#experiment-2-perimeter-and-area-of-a-triangle">next: experiment 2 ➜</a></sub></p>
 
 ---
 
 ### Experiment 2: Perimeter and area of a triangle
 
 > 🎯 **AIM:** To find the perimeter and area of a triangle.
+>
+> 😄 *Three sides in, one triangle out — Heron's formula does the flexing. 📐*
 
-<p align="left"><sub>🧠 Concepts: `math.h` · `Heron's formula`</sub></p>
+<p align="left"><sub>🧠 `math.h` · `Heron's formula`</sub></p>
 
 ```c
 #include<stdio.h>
@@ -194,22 +209,29 @@ void main()
 }
 ```
 
-💡 **Sample Run**
+<details>
+<summary>💻 <b>Run it</b> — sample session</summary>
 
-| 📥 Input | 📤 Output |
-|----------|-----------|
-| `3 4 5` | `Perimeter = 12.000000 \| Area = 6.000000` |
+```console
+$ gcc 02-perimeter-and-area-of-a-triangle.c -o prog && ./prog
+ Enter three sides of triangle : 3 4 5
+ Perimeter = 12.000000
+ Area = 6.000000
+```
 
+</details>
 
-<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-2-perimeter-and-area-of-a-triangle">⬆ to top of experiment 2</a></sub></p>
+<p align="center"><sub>🗂️ <a href="#-index">⬆ back to index</a> &nbsp;•&nbsp; <a href="#experiment-3-area-and-circumference-of-a-circle">next: experiment 3 ➜</a></sub></p>
 
 ---
 
 ### Experiment 3: Area and circumference of a circle
 
 > 🎯 **AIM:** To find the area and circumference of a circle.
+>
+> 😄 *Pizza maths: radius in, area & circumference out. 🍕*
 
-<p align="left"><sub>🧠 Concepts: `float` · `π constant`</sub></p>
+<p align="left"><sub>🧠 `float` · `π constant`</sub></p>
 
 ```c
 #include<stdio.h>
@@ -232,22 +254,31 @@ void main()
 }
 ```
 
-💡 **Sample Run**
+<details>
+<summary>💻 <b>Run it</b> — sample session</summary>
 
-| 📥 Input | 📤 Output |
-|----------|-----------|
-| `7` | `Area = 153.860001 \| Circumference = 43.959999` |
+```console
+$ gcc 03-area-and-circumference-of-a-circle.c -o prog && ./prog
+ Enter radius : 7
+ Area = 153.860001
+ Circumference = 43.959999
+```
 
+<sub>🥧 π = 3.14 keeps it old-school — pi purists, swap in 3.14159 and watch the decimals dance.</sub>
 
-<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-3-area-and-circumference-of-a-circle">⬆ to top of experiment 3</a></sub></p>
+</details>
+
+<p align="center"><sub>🗂️ <a href="#-index">⬆ back to index</a> &nbsp;•&nbsp; <a href="#experiment-4-convert-fahrenheit-to-celsius">next: experiment 4 ➜</a></sub></p>
 
 ---
 
 ### Experiment 4: Convert Fahrenheit to Celsius
 
 > 🎯 **AIM:** To convert temperature in Fahrenheit to Celsius.
+>
+> 😄 *98.6°F in, 37°C out — no calculator required. 🌡️*
 
-<p align="left"><sub>🧠 Concepts: `float` · `temperature formula`</sub></p>
+<p align="left"><sub>🧠 `float` · `temperature formula`</sub></p>
 
 ```c
 #include<stdio.h>
@@ -268,22 +299,28 @@ void main()
 }
 ```
 
-💡 **Sample Run**
+<details>
+<summary>💻 <b>Run it</b> — sample session</summary>
 
-| 📥 Input | 📤 Output |
-|----------|-----------|
-| `98.6` | `Temperature in Celsius = 37.000000` |
+```console
+$ gcc 04-convert-fahrenheit-to-celsius.c -o prog && ./prog
+ Enter temperature in Fahrenheit : 98.6
+ Temperature in Celsius = 37.000000
+```
 
+</details>
 
-<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-4-convert-fahrenheit-to-celsius">⬆ to top of experiment 4</a></sub></p>
+<p align="center"><sub>🗂️ <a href="#-index">⬆ back to index</a> &nbsp;•&nbsp; <a href="#experiment-5-simple-interest">next: experiment 5 ➜</a></sub></p>
 
 ---
 
 ### Experiment 5: Simple interest
 
 > 🎯 **AIM:** To find the Simple Interest.
+>
+> 😄 *Principal × rate × time ÷ 100 — money maths made friendly. 💰*
 
-<p align="left"><sub>🧠 Concepts: `float` · `arithmetic formula`</sub></p>
+<p align="left"><sub>🧠 `float` · `arithmetic formula`</sub></p>
 
 ```c
 #include<stdio.h>
@@ -304,14 +341,18 @@ void main()
 }
 ```
 
-💡 **Sample Run**
+<details>
+<summary>💻 <b>Run it</b> — sample session</summary>
 
-| 📥 Input | 📤 Output |
-|----------|-----------|
-| `1000 5 2` | `Simple Interest = 100.000000` |
+```console
+$ gcc 05-simple-interest.c -o prog && ./prog
+ Enter principal, rate and time : 1000 5 2
+ Simple Interest = 100.000000
+```
 
+</details>
 
-<p align="center"><sub><a href="#-index">⬆ back to index</a> &nbsp;|&nbsp; <a href="#experiment-5-simple-interest">⬆ to top of experiment 5</a></sub></p>
+<p align="center"><sub>🗂️ <a href="#-index">⬆ back to index</a> &nbsp;•&nbsp; <a href="#experiment-6-swap-two-numbers-without-using-a-temporary-variable">next: experiment 6 ➜</a></sub></p>
 
 ---
 
